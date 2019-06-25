@@ -1,0 +1,36 @@
+
+.button a {
+
+	text-decoration: none; 
+	font-size: 16px;
+	background-color: #528bcc;
+	padding: 12px 20px 12px 20px;
+	color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-left: 2px;
+}
+
+.seve {
+	color: white;
+	background-color: #528bcc;
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 5px 11px 5px 11px;
+	border-radius: 6px;
+	border: 0px;
+
+
+}
+
+.print a {
+	text-decoration: none;
+	color:#528bcc;
+}
+
+.print {
+
+	margin-left: 80px;
+	margin-top: 10px;
+
+}
