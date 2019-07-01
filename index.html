@@ -4,16 +4,48 @@
 	<meta charset="UTF-8">
 	<title>QR Code</title>
 	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="qrcode.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="jquery.min.js"></script>
 </head>
 <body>
-	<form name="vod">
-		<p>
-			<b>URL</b>
-			<br>
-			<input size="35" type="url" name="silka" placeholder="Вставьте ссылку для получения QR кода">
-		</p>
-			<input type="buttom" name="gener" value="Сгенерировать" onclick=" alert('123321')">
-	</form>
-	
+	<p>
+		<b>URL</b>
+	</p>
+<input id="text" /><br />
+
+<button id="inter">Сгенерировать</button>
+<hr>
+
+<div id="qrcode" style="width:100px; height:100px; margin-top:25px;"></div>
+
+<script>
+
+	var qrcode = new QRCode(document.getElementById("qrcode"), {
+		width : 200,
+		height : 200
+	});
+
+	function makeCode () {
+		var elText = document.getElementById("text");
+
+		qrcode.makeCode(elText.value);
+	}
+
+	makeCode();
+
+	$("#text").
+	on("blur", function () {
+		makeCode();
+	}).
+	on("keydown", function (e) {
+		if (e.keyCode == 13) {
+			makeCode();
+		}
+	});
+
+</script>
+
 </body>
 </html>
+
