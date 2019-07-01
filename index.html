@@ -34,15 +34,7 @@
 
 	makeCode();
 
-	$("#text").
-	on("blur", function () {
-		makeCode();
-	}).
-	on("keydown", function (e) {
-		if (e.keyCode == 13) {
-			makeCode();
-		}
-	});
+	document.getElementById('inter').addEventListener('click', makeCode);
 
 </script>
 
