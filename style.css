@@ -1,7 +1,4 @@
-@font-face {
-	font-family: anton;
-	src: url("15394.otf");
-}
+
 
 .on {
 	width: 19%;
@@ -13,12 +10,10 @@
 }
 
 p{
-	font-family: anton;
 	padding-left: 20%;
 }
 
 button {
-	font-family: anton;
 	margin-top: 3%;
 	margin-left: 20%;
 	padding: 0;
