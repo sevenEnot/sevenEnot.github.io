@@ -1,5 +1,38 @@
-.porno{
-	background-color: red;
-	color: black;
-
+.on {
+	width: 250px;
+	height: 380px;
+	border: 8px solid dodgerblue;
+	margin: auto;
+	padding-left:50px;
+	border-radius: 10%;
 }
+
+p{
+	padding-left: 50px;
+}
+
+button {
+	margin-top: 10px;
+	margin-left: 35px;
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+}
+
+.wwod {
+	margin-left: 14px;
+}
+
+.click {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border: solid 1px transparent;
+	border-radius: 4px;
+	padding: 0.5em 1em;
+	color: #ffffff;
+	background-color: #9555af;
+}
+
