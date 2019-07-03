@@ -38,7 +38,7 @@ button {
 
 @media (max-width:380px) {
 	.on{
-			width: 65%;
+			width: 70%;
 			height: 380px;
 			border: 2px solid dodgerblue;
 			margin-top: 60px;
