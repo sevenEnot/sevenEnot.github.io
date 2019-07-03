@@ -1,4 +1,10 @@
+@font-face {
+	font-family: Electrolize;
+	src: url("Electrolize.ttf");
+}
+
 .on {
+
 	width: 19%;
 	height: 380px;
 	border: 2px solid dodgerblue;
@@ -8,10 +14,12 @@
 }
 
 p{
+	font-family: Electrolize;
 	padding-left: 20%;
 }
 
 button {
+	font-family: Electrolize;
 	margin-top: 3%;
 	margin-left: 20%;
 	padding: 0;
@@ -47,16 +55,17 @@ button {
 			border-radius: 10%;
 		}
 	p{
+		font-family: Electrolize;
 		padding-left: 23%;
 		margin-top: 8%;
 
 	}
 	button {
+		font-family: Electrolize;
 		margin-top: 3%;
-		margin-left: 45px;
+		margin-left: 54px;
 		padding: 0;
 		border: none;
-		font: inherit;
 		color: inherit;
 		background-color: transparent;
 	}
