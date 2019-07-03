@@ -1,8 +1,8 @@
 .on {
 	width: 19%;
 	height: 380px;
-	border: 8px solid dodgerblue;
-	margin: auto;
+	border: 2px solid dodgerblue;
+	margin: 0 auto;
 	padding-left: 4%;
 	border-radius: 10%;
 }
@@ -21,7 +21,7 @@ button {
 	background-color: transparent;
 }
 
-.wwod {
+.vod {
 	margin-left: 8%;
 }
 
@@ -35,3 +35,47 @@ button {
 	color: #ffffff;
 	background-color: #9555af;
 }
+
+@media (max-width:380px) {
+	.on{
+			width: 65%;
+			height: 380px;
+			border: 2px solid dodgerblue;
+			margin-top: 60px;
+			padding-left: 4%;
+			border-radius: 10%;
+		}
+	p{
+		padding-left: 20%;
+		margin-top: 8%;
+	}
+	button {
+		margin-top: 3%;
+		margin-left: 18%;
+		padding: 0;
+		border: none;
+		font: inherit;
+		color: inherit;
+		background-color: transparent;
+	}
+
+	.vod {
+		margin-left: 9%;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.click {
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		border: solid 1% transparent;
+		border-radius: 4%;
+		padding: 0.5em 1em;
+		color: #ffffff;
+		background-color: #9555af;
+	}
+	.print {
+		margin-left: 8px;
+	}
+	}
