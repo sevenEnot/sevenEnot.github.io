@@ -62,8 +62,9 @@ button {
 	}
 	button {
 		font-family: Electrolize;
+		width: 120px;
 		margin-top: 3%;
-		margin-left: 65px;
+		margin-left: 50px;
 		padding: 0;
 		border: none;
 		color: inherit;
