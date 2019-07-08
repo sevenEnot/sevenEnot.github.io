@@ -15,7 +15,7 @@
 
 p{
 	font-family: Electrolize;
-	padding-left: 20%;
+	padding-left: 36px;
 }
 
 button {
@@ -31,11 +31,14 @@ button {
 .vod {
 	display: inline-block;
 	border: 2px solid #9555af;
-	margin-left: 8%;
+	margin-left: 2px;
 }
 
 .click {
 	display: inline-block;
+    width: 200px;
+    margin-left: 1px;
+    margin-top: 14px;
 	text-align: center;
 	text-decoration: none;
 	border: solid 1% transparent;
@@ -44,9 +47,10 @@ button {
 	color: #ffffff;
 	background-color: #9555af;
 }
-.click2 {
+.save {
 	display: inline-block;
-	width: 123px;
+	width: 200px;
+    margin-left: 1px;
 	text-align: center;
 	text-decoration: none;
 	border: solid 1% transparent;
@@ -54,6 +58,11 @@ button {
 	padding: 0.5em 1em;
 	color: #ffffff;
 	background-color: #9555af;
+}
+
+.print {
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 @media (max-width:380px) {
@@ -88,13 +97,14 @@ button {
 	.vod {
 
 		border: 2px solid #9555af;
-		width: 160px;
+		width: 180px;
 		height: 20px;
 		padding-left: 18px;
-		margin-right: 4px;
+		margin-left: 8px;
 	}
 
 	.click {
+        margin-top: 20px;
 		display: inline-block;
 		text-align: center;
 		text-decoration: none;
@@ -103,11 +113,15 @@ button {
 		padding: 0.5em 1em;
 		color: #ffffff;
 		background-color: #9555af;
+        margin-left: 9px;
+        width: 200px;
+
 	}
 
-	.click2 {
+	.save {
 		display: inline-block;
-		width: 120px;
+		width: 203px;
+        margin-left: 6px;
 		text-align: center;
 		text-decoration: none;
 		border: solid 1% transparent;
@@ -119,6 +133,7 @@ button {
 	}
 
 	.print {
+        margin-top: 7px;
 		margin-left: 8px;
 	}
 }
