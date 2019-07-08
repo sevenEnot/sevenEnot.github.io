@@ -5,7 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="qrcode.js"></script>
 	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="download.js"></script>
 	<script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="FileSaver.js"></script>
+	<script type="text/javascript" src="FileSaver.min.js"></script>
+	<script type="text/javascript" src="dom-to-image.js"></script>
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
@@ -15,13 +19,14 @@
 		<b>Введите Ccылку..</b>
 	</p>
 <input class="vod" size="20" id="text">
+
 	<br>
 
 <button class="click" id="inter">Cгенерировать</button>
 
+	<button class="click2" id="Save">Save</button>
 
-
-<div class="print" id="qrcode" style="width:70%; height:70%; margin-top:15%;"></div>
+	<div class="print" id="qrcode" style="width:70%; height:70%; margin-top:15%;"></div>
 
 
 
@@ -42,7 +47,16 @@
 
 	document.getElementById('inter').addEventListener('click', makeCode);
 
+	var btn = document.getElementById('Save');
+	btn.onclick = function() {
+		domtoimage.toBlob(document.getElementById('qrcode'))
+				.then(function(blob) {
+					window.saveAs(blob, 'qrcode.png');
+				});
+	}
+
 </script>
+
 
 </div>
 
