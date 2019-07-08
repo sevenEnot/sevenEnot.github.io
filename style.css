@@ -6,7 +6,7 @@
 .on {
 
 	width: 19%;
-	height: 380px;
+	height: 430px;
 	border: 2px solid dodgerblue;
 	margin: 0 auto;
 	padding-left: 4%;
@@ -44,22 +44,35 @@ button {
 	color: #ffffff;
 	background-color: #9555af;
 }
+.click2 {
+	display: inline-block;
+	width: 123px;
+	text-align: center;
+	text-decoration: none;
+	border: solid 1% transparent;
+	border-radius: 4%;
+	padding: 0.5em 1em;
+	color: #ffffff;
+	background-color: #9555af;
+}
 
 @media (max-width:380px) {
-	.on{
-			width: 65%;
-			height: 380px;
-			border: 2px solid dodgerblue;
-			margin-top: 60px;
-			padding-left: 4%;
-			border-radius: 10%;
-		}
-	p{
+	.on {
+		width: 65%;
+		height: 430px;
+		border: 2px solid dodgerblue;
+		margin-top: 60px;
+		padding-left: 4%;
+		border-radius: 10%;
+	}
+
+	p {
 		font-family: Electrolize;
 		padding-left: 44px;
 		margin-top: 8%;
 
 	}
+
 	button {
 		font-family: Electrolize;
 		width: 120px;
@@ -91,7 +104,22 @@ button {
 		color: #ffffff;
 		background-color: #9555af;
 	}
+
+	.click2 {
+		display: inline-block;
+		width: 120px;
+		text-align: center;
+		text-decoration: none;
+		border: solid 1% transparent;
+		border-radius: 4%;
+		padding: 0.5em 1em;
+		color: #ffffff;
+		background-color: #9555af;
+
+	}
+
 	.print {
 		margin-left: 8px;
 	}
-	}
+}
+
