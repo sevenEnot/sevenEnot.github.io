@@ -28,13 +28,17 @@
 
 	<button class="save" id="Save">Сохранить</button>
 
+	<b class="still">Стиль</b>
 
+	
 
 <script>
 
 	var qrcode = new QRCode(document.getElementById("qrcode"), {
 		width : 200,
-		height : 200
+		height : 200,
+		colorDark : "#000000",
+		colorLight : "#ffffff",
 	});
 
 	function makeCode () {
