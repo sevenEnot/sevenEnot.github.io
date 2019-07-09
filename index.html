@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="FileSaver.js"></script>
 	<script type="text/javascript" src="FileSaver.min.js"></script>
 	<script type="text/javascript" src="dom-to-image.js"></script>
+	<script type="text/javascript" src="jscolor.js"></script>
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
@@ -27,18 +28,16 @@
 
 
 	<button class="save" id="Save">Сохранить</button>
-
+<br>
 	<b class="still">Стиль</b>
-
-	
+<br>
+	<input class="jscolor {onFineChange:'update(this)'}" value="cc66ff">
 
 <script>
 
 	var qrcode = new QRCode(document.getElementById("qrcode"), {
 		width : 200,
 		height : 200,
-		colorDark : "#000000",
-		colorLight : "#ffffff",
 	});
 
 	function makeCode () {
@@ -59,6 +58,9 @@
 				});
 	}
 
+	function update(jscolor) {
+		document.getElementById('rel').style.backgroundColor = '#' + jscolor
+	}
 </script>
 
 
