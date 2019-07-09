@@ -67,7 +67,20 @@ button {
 }
 
 .still {
+}
 
+.jscolor {
+    display: inline-block;
+    width: 200px;
+    margin-left: 1px;
+    margin-top: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1% transparent;
+    border-radius: 4%;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: #9555af;
 }
 
 @media (max-width:380px) {
