@@ -12,6 +12,7 @@
 	<script type="text/javascript" src="dom-to-image.js"></script>
 	<script type="text/javascript" src="jscolor.js"></script>
 	<meta name="viewport" content="width=device-width">
+	<script src="../../UI5Lab-central-master/combineProjects.js"></script>
 </head>
 <body>
 
@@ -33,13 +34,16 @@
 
 <br>
 
-    <input class="jscolor {onFineChange:'update(this)'}" value="red">
+    <input class="jscolor {onFineChange:'update(this)'}" value="red" id="zamena">
+	<input class="jscolor {onFineChange:'update(this)'}" value="blue" id="zameni">
 
 <script>
 
 	var qrcode = new QRCode(document.getElementById("qrcode"), {
 		width : 200,
 		height : 200,
+		colorDark: $('#zamena').val(),
+		colorLight: $('#zameni').val(),
 	});
 
 
@@ -51,7 +55,13 @@
 
 	makeCode();
 
-	document.getElementById('inter').addEventListener('click', makeCode);
+	document.getElementById('inter').addEventListener('click', makeCode, update(jscolor));
+
+	function update(jscolor) {
+		document.getElementById('zamena').style.color = '#' + jscolor;
+		document.getElementById('zameni').style.color = '#' + jscolor;
+	}
+
 
 	var btn = document.getElementById('Save');
 	btn.onclick = function() {
@@ -61,11 +71,7 @@
 				});
 	}
 
-    colorDark = document.getElementById('solo');
 
-    function update(jscolor) {
-        document.getElementById('qrcode').style.backgroundColor = '#' + jscolor
-    }
 </script>
 
 
