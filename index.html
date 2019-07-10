@@ -16,7 +16,7 @@
 <body>
 
 <div class="on">
-	<p>
+    <p>
 		<b>Введите Ccылку.</b>
 	</p>
 <input class="vod" size="28" id="text">
@@ -30,8 +30,10 @@
 	<button class="save" id="Save">Сохранить</button>
 <br>
 	<b class="still">Стиль</b>
+
 <br>
-	<input class="jscolor {onFineChange:'update(this)'}" value="cc66ff">
+
+    <input class="jscolor {onFineChange:'update(this)'}" value="red">
 
 <script>
 
@@ -39,6 +41,7 @@
 		width : 200,
 		height : 200,
 	});
+
 
 	function makeCode () {
 		var elText = document.getElementById("text");
@@ -58,9 +61,11 @@
 				});
 	}
 
-	function update(jscolor) {
-		document.getElementById('rel').style.backgroundColor = '#' + jscolor
-	}
+    colorDark = document.getElementById('solo');
+
+    function update(jscolor) {
+        document.getElementById('qrcode').style.backgroundColor = '#' + jscolor
+    }
 </script>
 
 
