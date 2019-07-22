@@ -6,7 +6,7 @@
 .on {
 
 	width: 19%;
-	height: 430px;
+	height: 450px;
 	border: 2px solid dodgerblue;
 	margin: 0 auto;
 	padding-left: 4%;
@@ -17,6 +17,11 @@ p{
 	font-family: Electrolize;
 	padding-left: 36px;
 }
+
+.viborSweta {
+
+}
+
 
 button {
 	font-family: Electrolize;
@@ -51,7 +56,7 @@ button {
 	display: inline-block;
 	width: 200px;
     margin-left: 1px;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 	text-align: center;
 	text-decoration: none;
 	border: solid 1% transparent;
@@ -70,27 +75,22 @@ button {
 }
 
 .jscolor {
-    display: inline-block;
-    width: 200px;
-    margin-left: 1px;
-    margin-top: 14px;
-    text-align: center;
-    text-decoration: none;
-    border: solid 1% transparent;
-    border-radius: 4%;
-    padding: 0.5em 1em;
-    color: #ffffff;
-    background-color: #9555af;
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 50px;
+    border: solid black 1px;
 }
 
 @media (max-width:380px) {
 	.on {
 		width: 65%;
-		height: 430px;
+		height: 470px;
 		border: 2px solid dodgerblue;
 		margin-top: 60px;
 		padding-left: 4%;
-		border-radius: 10%;
+		border-radius: 7%;
 	}
 
 	p {
