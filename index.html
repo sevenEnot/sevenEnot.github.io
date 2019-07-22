@@ -20,7 +20,7 @@
     <p>
 		<b>Введите Ccылку.</b>
 	</p>
-<input class="vod" size="28" id="text">
+<input maxlength="20" placeholder="Максимально 20 символов" class="vod" size="28" id="text">
 
 
 <button class="click" id="inter">Cгенерировать</button>
@@ -38,6 +38,7 @@
 	<button class="jscolor {valueElement:null,value:'000000', onFineChange:'update2(this)'}" id="zamena2" ></button>
 </div>
 <script>
+
 
 	var qrcode = new QRCode(document.getElementById("qrcode"), {
 		width : 200,
