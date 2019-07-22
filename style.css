@@ -85,7 +85,7 @@ button {
     border: solid black 1px;
 }
 
-@media (max-width:380px) {
+@media (max-width:420px) {
 	.on {
 		width: 65%;
 		height: 470px;
