@@ -20,7 +20,7 @@
     <p>
 		<b>Введите Ccылку.</b>
 	</p>
-<input maxlength="20" placeholder="Максимально 20 символов" class="vod" size="28" id="text">
+<input name="link" placeholder="Введите ссылку" class="vod" size="28" id="text">
 
 
 <button class="click" id="inter">Cгенерировать</button>
@@ -40,13 +40,16 @@
 <script>
 
 
+
 	var qrcode = new QRCode(document.getElementById("qrcode"), {
 		width : 200,
 		height : 200,
 	});
 
 
+
 	function makeCode () {
+
 		var elText = document.getElementById("text");
 
 		qrcode.makeCode(elText.value);
@@ -57,12 +60,14 @@
 
 	document.getElementById('inter').addEventListener('click', makeCode);
 
+
 	function update(jscolor) {
 		qrcode._htOption.colorLight = '#'+ jscolor;
 	}
 	function update2(jscolor) {
 		qrcode._htOption.colorDark = '#'+ jscolor;
 	}
+
 
 
 	var btn = document.getElementById('Save');
