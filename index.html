@@ -33,17 +33,15 @@
 	<b class="still">Стиль</b>
 
 <br>
-
-    <input class="jscolor {onFineChange:'update(this)'}" value="red" id="zamena">
-	<input class="jscolor {onFineChange:'update(this)'}" value="blue" id="zameni">
-
+<div class="viborSweta">
+	<button class="jscolor  {valueElement:null,value:'ffffff', onFineChange:'update(this)'}"  id="zamena"  ></button>
+	<button class="jscolor {valueElement:null,value:'000000', onFineChange:'update2(this)'}" id="zamena2" ></button>
+</div>
 <script>
 
 	var qrcode = new QRCode(document.getElementById("qrcode"), {
 		width : 200,
 		height : 200,
-		colorDark: $('#zamena').val(),
-		colorLight: $('#zameni').val(),
 	});
 
 
@@ -55,11 +53,14 @@
 
 	makeCode();
 
-	document.getElementById('inter').addEventListener('click', makeCode, update(jscolor));
+
+	document.getElementById('inter').addEventListener('click', makeCode);
 
 	function update(jscolor) {
-		document.getElementById('zamena').style.color = '#' + jscolor;
-		document.getElementById('zameni').style.color = '#' + jscolor;
+		qrcode._htOption.colorLight = '#'+ jscolor;
+	}
+	function update2(jscolor) {
+		qrcode._htOption.colorDark = '#'+ jscolor;
 	}
 
 
