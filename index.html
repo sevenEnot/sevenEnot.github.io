@@ -20,7 +20,7 @@
     <p>
 		<b>Введите Ccылку.</b>
 	</p>
-<input name="link" placeholder="Введите ссылку" class="vod" size="28" id="text">
+<input type="url" name="url" placeholder="Введите ссылку" class="vod" size="28" id="url" value="http://htmlbook.ru/">
 
 
 <button class="click" id="inter">Cгенерировать</button>
@@ -40,26 +40,32 @@
 <script>
 
 
-
 	var qrcode = new QRCode(document.getElementById("qrcode"), {
 		width : 200,
 		height : 200,
 	});
 
 
-
 	function makeCode () {
 
-		var elText = document.getElementById("text");
+		var url = document.getElementById("url").value;
+		var pattern = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+		if (pattern.test(url)){
+			var elText = document.getElementById("url");
+			qrcode.makeCode(elText.value);
+			return true;
+		} else {
+			alert("Пожалуйста, введите ссылку!");
+			return false;
+		}
+		}
 
-		qrcode.makeCode(elText.value);
-	}
+
 
 	makeCode();
 
 
-	document.getElementById('inter').addEventListener('click', makeCode);
-
+	document.getElementById('inter').addEventListener('click',makeCode);
 
 	function update(jscolor) {
 		qrcode._htOption.colorLight = '#'+ jscolor;
