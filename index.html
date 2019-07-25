@@ -20,7 +20,7 @@
     <p>
 		<b>Введите Ccылку.</b>
 	</p>
-<input type="url" name="url" placeholder="Введите ссылку" class="vod" size="28" id="url" value="http://htmlbook.ru/">
+<input type="url" name="url" placeholder="Введите ссылку" class="vod" size="28" id="url" value="">
 
 
 <button class="click" id="inter">Cгенерировать</button>
@@ -49,7 +49,7 @@
 	function makeCode () {
 
 		var url = document.getElementById("url").value;
-		var pattern = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
+		var pattern = /^\s*$|(www\.|https:\/\/|vk\.|http:\/\/|\w+)(\w+\.)(com|ru|eu|рф|ua)(\/\w.+|)/;
 		if (pattern.test(url)){
 			var elText = document.getElementById("url");
 			qrcode.makeCode(elText.value);
