@@ -13,6 +13,13 @@
 	border-radius: 10%;
 }
 
+.validator_error{
+
+	border: 2px solid red;
+
+}
+
+
 p{
 	font-family: Electrolize;
 	padding-left: 36px;
