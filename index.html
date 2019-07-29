@@ -21,6 +21,7 @@
 		<b>Введите Ccылку.</b>
 	</p>
 <input type="url" name="url" placeholder="Введите ссылку" class="vod" size="28" id="url" value="">
+	<label id="sms">123</label>
 
 
 <button class="click" id="inter">Cгенерировать</button>
@@ -55,7 +56,8 @@
 			qrcode.makeCode(elText.value);
 			return true;
 		} else {
-			alert("Пожалуйста, введите ссылку!");
+			var theElement = document.getElementById("sms");
+			theElement.innerHTML = "Zarabotalo";
 			return false;
 		}
 		}
