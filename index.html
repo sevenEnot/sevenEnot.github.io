@@ -21,7 +21,7 @@
 		<b>Введите Ccылку.</b>
 	</p>
 <input type="url" name="url" placeholder="Введите ссылку" class="vod" size="28" id="url" value="">
-	<label id="sms">123</label>
+	<div id="sms"></div>
 
 
 <button class="click" id="inter">Cгенерировать</button>
@@ -57,8 +57,7 @@
 			return true;
 		} else {
 			var theElement = document.getElementById("sms");
-			theElement.innerHTML = "Zarabotalo";
-			return false;
+			theElement.innerHTML = "Введите ссылку";
 		}
 		}
 
