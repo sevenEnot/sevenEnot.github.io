@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .fon{
+            background: url("kot1.jpg");
+            width: 600px;
+            height: 300px;
+            position: relative;
+        }
+
+        input {
+            cursor: pointer;
+        }
+        .znak2 {
+            text-align: center;
+            position: relative;
+            top: 274px;
+        }
+
+        input:checked::before {
+            background: radial-gradient(circle, red 45%, white 60%);
+            box-shadow: 0 0 10px 4px white;
+        }
+        input:before {
+            content: "";
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, black 45%, white 60%);
+            box-shadow: 0 0 1px 0 black;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="fon">
+<div class="znak2">
+    <input class="znak" name="znakk" type="radio">
+    <input class="znak" name="znakk" type="radio" checked>
+    <input class="znak" name="znakk" type="radio">
+    <input class="znak" name="znakk" type="radio">
+    <input class="znak" name="znakk" type="radio">
+</div>
+</div>
+
+</body>
+</html>
