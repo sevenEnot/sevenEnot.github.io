@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+         .pager-item:hover{
+            background: #cccccc;
+            border-bottom: #373737 solid 3px;
+        }
+         .pager-current:hover {
+             background: #cccccc;
+             border-bottom: #373737 solid 3px;
+         }
+        li {
+            display: inline;
+            margin: 4px;
+            padding: 10px 20px 10px 20px;
+        }
+
+        ul {
+            padding: 10px;
+            background: #f0f0f0;
+            width: 300px;
+            border-bottom: 3px solid #cccccc;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+<div class="item-list">
+    <ul class="pager">
+        <li class="pager-current first"><span>1</span></li>
+        <li class="pager-item"><a href="/node?page=1" title="На страницу номер 2">2</a></li>
+        <li class="pager-item"><a href="/node?page=2" title="На страницу номер 3">3</a></li>
+        <li class="pager-item"><a href="/node?page=3" title="На страницу номер 4">4</a></li>
+        <li class="pager-next last"><a href="/node?page=1" title="На следующую страницу">›</a></li>
+    </ul>
+</div>
+<p>Содержание</p>
+</body>
+</html>
