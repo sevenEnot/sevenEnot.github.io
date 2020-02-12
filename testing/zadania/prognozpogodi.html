@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .sun:hover,
+        .snow:hover,
+        .wet:hover{
+            box-shadow: 0 0 8px;
+            inset: 3px 12px;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        img {
+            width: 120px;
+            height: 100px;
+            padding-bottom: 40px;
+        }
+
+        .sun,
+        .snow,
+        .wet {
+            border-top: solid 30px #0097b9 ;
+        }
+
+
+        .databliz{
+            position: absolute;
+            top: -12px;
+            left: 290px;
+            color: white;
+            font-size: 22px;
+        }
+        .datasnow{
+            position: absolute;
+            top: -12px;
+            left: 170px;
+            color: white;
+            font-size: 22px;
+        }
+        .datasun{
+            position: absolute;
+            top: -12px;
+            left: 45px;
+            color: white;
+            font-size: 22px;
+        }
+
+        .tsun{
+            position: absolute;
+            top: 120px;
+            left: 45px;
+            font-size: 22px;
+        }
+        .tsnow{
+            position: absolute;
+            top: 120px;
+            left: 170px;
+            font-size: 22px;
+        }
+        .tblizz {
+            position: absolute;
+            top: 120px;
+            left: 300px;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="osnova">
+    <div class="sun">
+        <img src="sun.jpg">
+        <p class="datasun">31.08</p>
+        <p class="tsun">+20&deg;</p>
+    </div>
+
+    <div class="snow">
+
+        <img src="snow.jpg">
+        <p class="datasnow">01.09</p>
+        <p class="tsnow">&#160;-3&deg;</p>
+    </div>
+
+    <div class="wet">
+        <img src="blizzard.jpg">
+        <p class="databliz">02.09</p>
+        <p class="tblizz">-10&deg;</p>
+    </div>
+</div>
+
+</body>
+</html>
