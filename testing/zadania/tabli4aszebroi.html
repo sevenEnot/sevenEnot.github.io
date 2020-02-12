@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Зебра</title>
+    <style>
+        .lux {
+            width: 300px;
+            border: 1px solid #a52a2a;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        .lux th {
+            background: #a52a2a;
+            color: white;
+        }
+        .lux td {
+            border-bottom: 1px solid black;
+        }
+        .lux td, .lux th {
+            padding: 4px;
+        }
+        tr:nth-last-child(even){
+            background:#fffff0;
+        }
+
+        tr:nth-last-child(odd){
+            background:#fff8dc;
+        }
+
+        td:nth-last-child(-n+3){
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+<table class="lux">
+    <tr>
+        <th></th>
+        <th>2004</th>
+        <th>2005</th>
+        <th>2006</th>
+    </tr>
+    <tr>
+        <td>Рубины</td>
+        <td>43</td>
+        <td>51</td>
+        <td>79</td>
+    </tr>
+    <tr>
+        <td>Изумруды</td>
+        <td>28</td>
+        <td>34</td>
+        <td>48</td>
+    </tr>
+    <tr>
+        <td>Сапфиры</td>
+        <td>29</td>
+        <td>57</td>
+        <td>36</td>
+    </tr>
+    <tr>
+        <td>Аметисты</td>
+        <td>23</td>
+        <td>64</td>
+        <td>97</td>
+    </tr>
+</table>
+</body>
