@@ -3,8 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+
+        .reg {
+            border: solid 2px black;
+            background:#0690cf ;
+            color: white;
+            width: 400px;
+            height: 250px;
+        }
+        .pas {
+            display: inline-block;
+        }
+        .form {
+            border-top: white 1px solid;
+            padding-top: 10px;
+        }
+        .email{
+            padding-left: 25px;
+            padding-top: 10px;
+        }
+        .pas {
+            padding-top: 20px;
+        }
+        button {
+            margin-left: 25px;
+            margin-top: 15px;
+            background: #ffdf7f;
+            border: 1px solid #ffdf7f;
+            padding: 5px;
+        }
+        h1 {
+            padding-left: 25px;
+        }
+
+
+    </style>
 </head>
 <body>
+
+<div class="reg">
+    <header>
+        <h1>Регистрация</h1>
+    </header>
+    <div class="form">
+        <div class="email">
+            <label>E-mail<br>
+                <input type="email" size="45x">
+            </label>
+<br>
+            <div class="pas">
+                <label> Пароль<br>
+                    <input type="password" size="20px" >
+                </label>
+            </div>
+            <div class="pas">
+                <label> Еще раз<br>
+                    <input type="password" size="20px">
+                </label>
+            </div>
+        </div>
+        <button type="submit">Отправить</button>
+    </div>
+</div>
 
 </body>
 </html>
