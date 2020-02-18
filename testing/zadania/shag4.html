@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .krug,
+        .krug2,
+        .krug3{
+            position: relative;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: #b2d235;
+            border-radius: 50px;
+        }
+        .krug4{
+        position: relative;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background: #ab4a9c;
+        border-radius: 50px;
+        }
+        .krug5{
+            position: relative;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: #cccccc;
+            border-radius: 50px;
+        }
+        .inner {
+            position: relative;
+            text-align: center;
+            line-height: 100px;
+            font-size: 30px;
+            color: white;
+        }
+        .krug4:after,
+        .krug3:after,
+        .krug2:after,
+        .krug:after {
+            position: absolute;
+            content: "";
+            background:#cccccc ;
+            width: 50px;
+            height: 10px;
+            left: 100px;
+            top: 45px;
+        }
+        .krug2{
+            left: 45px;
+        }
+        .krug3{
+            left: 90px;
+        }
+        .krug4{
+            left: 135px;
+        }
+        .krug5{
+            left: 180px;
+        }
+
+        .inner.ps {
+            position: relative;
+            text-align: center;
+            line-height: 100px;
+            font-size: 30px;
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="krug">
+    <div class="inner">1</div>
+</div>
+<div class="krug2">
+    <div class="inner">2</div>
+</div>
+<div class="krug3">
+    <div class="inner">3</div>
+</div>
+<div class="krug4">
+    <div class="inner">4</div>
+</div>
+<div class="krug5">
+    <div class="inner ps">5</div>
+</div>
+
+</body>
+</html>
