@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        .photo {
+            position: relative;
+        }
         fieldset{
             margin:15px;
             background: #e1e3b8 ;
         }
-        div {
-            position: relative;
-        }
         p {
+            position: relative;
+            top: -170px;
+            font-size: 14px;
+        }
+        .rad {
             position: absolute;
+            left: 180px;
+            top: 80px;
+
+        }
+        input,
+        label{
+            margin: 8px;
+        }
+
+        button {
+            position: relative;
+            left: 160px;
+            background:#b98f5c ;
+            border: 1px solid white;
+            color: white;
         }
 
     </style>
@@ -20,13 +40,30 @@
 <body>
 
 <fieldset>
-    <legend style="color:#a35d43 ">Выбор варианта</legend>
-    <p>Какой разделитель психологии изучает познавательные процессы<br>
-        человеческого сознания?</p>
-    <div>
+    <div class="photo">
     <img src="check-bg.png">
     </div>
-
+    <legend style="color:#a35d43 ">Выбор варианта</legend>
+    <p><b>Какой разделитель психологии изучает познавательные процессы<br>
+        человеческого сознания?</b></p>
+    <div class="rad">
+    <label>
+    <input type="radio">
+        Психоанализ</label><br>
+    <label>
+    <input type="radio">
+    Бихевиоризм</label><br>
+    <label>
+    <input type="radio">
+    Когнетивная психология</label><br>
+    <label>
+    <input type="radio">
+    Гуманестическая психология</label><br>
+    <label>
+    <input type="radio">
+    Гештатьльт-психология</label><br>
+    </div>
+    <button>Ответить</button>
 </fieldset>
 
 </body>
