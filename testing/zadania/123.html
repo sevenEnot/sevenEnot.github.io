@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .zag {
+            position: relative;
+            background: gold;
+            padding: 3px 1px 6px 15px;
+            font-size: 19px;
+        }
+        .sod {
+            position: relative;
+            background: #909497;
+            padding: 10px 1px 40px 15px;
+        }
+
+        .blok {
+            margin: 120px;
+            border: 2px solid black;
+            position: relative;
+            border-radius: 6px;
+            padding: 20px;
+            background: rgba(080, 179, 151, 0.5);
+        }
+
+        .blok:after {
+            content: '';
+            position: absolute;
+            border: 10px solid transparent;
+            border-top: 10px solid #ffd700;
+            top: 50px;
+            left: 35px;
+        }
+        p {
+            margin: 0px;
+        }
+        body {
+            background: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX34849666.jpg);
+        }
+        .text {
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="blok">
+    <div class="text">
+    <p class="zag">Заголовоу</p>
+    <p class="sod">Содержание</p>
+    </div>
+</div>
+
+</body>
+</html>
