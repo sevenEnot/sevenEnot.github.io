@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .submenu {
+            position: relative;
+            opacity: 0;
+            border: 1px solid black;
+            box-shadow: 0 0 4px rgba(0,0,0,0.5);
+            padding-top: 4px;
+        }
+        .file-menu:hover:before{
+            content: "Файл";
+            position: absolute;
+            width: 40px;
+            height: 18px;
+            background: white;
+            z-index: 1;
+            box-shadow: 0px -1px 6px -1px rgba(0,0,0,0.5);
+            border-top: 1px solid black;
+            border-right:1px solid black;
+            border-left: 1px solid black ;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+        .file-menu:hover:after{
+            content: "";
+            top: 32px;
+            left: 49px;
+            position: absolute;
+            width: 40px;
+            height: 7px;
+            background: white;
+            z-index: 1;
+        }
+        .topmenu li:hover .submenu {
+            opacity: 1;
+
+        }
+        .file-menu,
+        .prav{
+            display: inline-block;
+        }
+        li {
+            list-style-type: none;
+        }
+        .submenu a:hover{
+            position: relative;
+            color: white;
+            display: inline-block;
+        }
+        .submenu li:hover {
+            display: block;
+            box-sizing: inherit;
+            width: 100%;
+            background: #5bc1fe;
+        }
+        .submenu li {
+            position: relative;
+            left: -40px;
+            text-decoration: none;
+        }
+        .submenu a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="topmenu">
+            <li class="file-menu"><a href=""> Файл</a>
+            <ul class="submenu">
+                <li><a href=""> Новый</a></li>
+                <li><a href=""> Открыть</a></li>
+                <li><a href="">Сохранить</a></li>
+                <li><a href=""> Закрыть</a></li>
+            </ul>
+            </li>
+            <li class="prav"><a href=""> Правка</a>
+                <ul class="submenu">
+                    <li><a href="">Вырезать</a></li>
+                    <li><a href=""> Копировать</a></li>
+                    <li><a href="">Вставить</a></li>
+                    <li><a href=""> Удалить</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+</html>
