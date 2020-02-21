@@ -6,7 +6,7 @@
     <style>
         .submenu {
             position: relative;
-            opacity: 0;
+            display: none;
             border: 1px solid black;
             box-shadow: 0 0 4px rgba(0,0,0,0.5);
             padding-top: 4px;
@@ -24,6 +24,7 @@
             border-left: 1px solid black ;
             border-top-right-radius: 4px;
             border-top-left-radius: 4px;
+
         }
         .file-menu:hover:after{
             content: "";
@@ -60,7 +61,8 @@
             z-index: 1;
         }
         .topmenu li:hover .submenu {
-            opacity: 1;
+            display: block;
+
 
         }
         .file-menu,
@@ -69,6 +71,7 @@
         }
         li {
             list-style-type: none;
+
         }
         .submenu a:hover{
             position: relative;
@@ -88,6 +91,9 @@
         }
         .submenu a{
             text-decoration: none;
+        }
+        .prav{
+            margin-left: 90px;
         }
     </style>
 </head>
