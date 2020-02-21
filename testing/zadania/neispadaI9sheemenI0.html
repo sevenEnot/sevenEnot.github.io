@@ -35,6 +35,30 @@
             background: white;
             z-index: 1;
         }
+        .prav:hover:before{
+            content: "Правка";
+            position: absolute;
+            width: 53px;
+            height: 18px;
+            background: white;
+            z-index: 1;
+            box-shadow: 0px -1px 6px -1px rgba(0,0,0,0.5);
+            border-top: 1px solid black;
+            border-right:1px solid black;
+            border-left: 1px solid black ;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+        .prav:hover:after{
+            content: "";
+            top: 32px;
+            left: 168px;
+            position: absolute;
+            width: 52px;
+            height: 7px;
+            background: white;
+            z-index: 1;
+        }
         .topmenu li:hover .submenu {
             opacity: 1;
 
