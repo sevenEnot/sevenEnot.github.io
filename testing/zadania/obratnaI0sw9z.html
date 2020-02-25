@@ -5,12 +5,51 @@
     <title>Title</title>
     <style>
 
+        div {
+            margin-top: 250px;
+            background: #333333;
+            width: 330px;
+            border-right: gold 25px solid;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            position: relative;
+            right: 340px;
+            transition: 2s;
+        }
+        img {
+            padding: 10px;
+            float: left;
+        }
+        div:hover {
+            position: relative;
+            right: 7px;
+            transition: 2s;
+        }
+        p {
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+
+        div:before {
+            content: "Обратная связь";
+            position: absolute;
+            right: -65px;
+            top: 50px;
+            transform: rotate(-90deg);
+        }
+
 
     </style>
 </head>
 <body>
-<div>
 
+<div>
+    <img src="feedback.jpg">
+    <p> Если у вас возникли<br>
+        вопросы по этому коду,<br>
+        звоните мне по телефону:<br>
+        555-3298. Звонок платный.</p>
 </div>
 
 </body>
