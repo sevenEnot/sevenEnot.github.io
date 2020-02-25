@@ -4,120 +4,113 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .submenu {
-            position: relative;
-            display: none;
-            border: 1px solid black;
-            box-shadow: 0 0 4px rgba(0,0,0,0.5);
-            padding-top: 4px;
+        li {
+            list-style-type: none
         }
-        .file-menu:hover:before{
+        .upmenu > li:hover {
+            background: #37abff;
+            color: white;
+        }
+        .upmenu {
+            display:none;
+            padding: 0px ;
+            position: fixed;
+            border: 3px solid white;
+            width: 100px;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            box-shadow: 0 0 4px rgba(0,0,0,0.5) ;
+        }
+        .upmenu > li {
+            position: relative;
+            padding-left: 2px;
+            margin-top: 1px;
+        }
+        .menu > .open:hover > .upmenu,
+        .menu > .open2:hover > .upmenu{
+            display: block;
+        }
+        .open2,
+        .open {
+            display: inline-block;
+            color: blue;
+
+        }
+        .open2 {
+            position: relative;
+            left: 30px;
+        }
+        .open:hover:before {
             content: "Файл";
             position: absolute;
-            width: 40px;
-            height: 18px;
+            background: white;
+            color: black;
+            padding-right: 3px;
+            padding-left: 2px;
+            z-index: 1;
+            box-shadow: 0 0 4px rgba(0,0,0,0.5);
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
+        }
+        .open:hover:after {
+            content: "";
+            position: absolute;
             background: white;
             z-index: 1;
-            box-shadow: 0px -1px 6px -1px rgba(0,0,0,0.5);
-            border-top: 1px solid black;
-            border-right:1px solid black;
-            border-left: 1px solid black ;
-            border-top-right-radius: 4px;
-            border-top-left-radius: 4px;
+            width: 41px;
+            height: 4px;
+            top: 34px;
+            left: 48px;
 
         }
-        .file-menu:hover:after{
-            content: "";
-            top: 32px;
-            left: 49px;
-            position: absolute;
-            width: 40px;
-            height: 7px;
-            background: white;
-            z-index: 1;
-        }
-        .prav:hover:before{
+        .open2:hover:before {
             content: "Правка";
             position: absolute;
-            width: 53px;
-            height: 18px;
             background: white;
+            color: black;
+            padding-right: 3px;
+            padding-left: 2px;
             z-index: 1;
-            box-shadow: 0px -1px 6px -1px rgba(0,0,0,0.5);
-            border-top: 1px solid black;
-            border-right:1px solid black;
-            border-left: 1px solid black ;
-            border-top-right-radius: 4px;
-            border-top-left-radius: 4px;
+            box-shadow: 0 0 4px rgba(0,0,0,0.5);
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
         }
-        .prav:hover:after{
+        .open2:hover:after {
             content: "";
-            top: 32px;
-            left: 168px;
             position: absolute;
-            width: 52px;
-            height: 7px;
             background: white;
             z-index: 1;
-        }
-        .topmenu li:hover .submenu {
-            display: block;
+            width: 54px;
+            height: 5px;
+            top: 17px;
+            right: -5px;
 
-
-        }
-        .file-menu,
-        .prav{
-            display: inline-block;
-        }
-        li {
-            list-style-type: none;
-
-        }
-        .submenu a:hover{
-            position: relative;
-            color: white;
-            display: inline-block;
-        }
-        .submenu li:hover {
-            display: block;
-            box-sizing: inherit;
-            width: 100%;
-            background: #5bc1fe;
-        }
-        .submenu li {
-            position: relative;
-            left: -40px;
-            text-decoration: none;
-        }
-        .submenu a{
-            text-decoration: none;
-        }
-        .prav{
-            margin-left: 90px;
         }
     </style>
 </head>
+
+
 <body>
-    <nav>
-        <ul class="topmenu">
-            <li class="file-menu"><a href=""> Файл</a>
-            <ul class="submenu">
-                <li><a href=""> Новый</a></li>
-                <li><a href=""> Открыть</a></li>
-                <li><a href="">Сохранить</a></li>
-                <li><a href=""> Закрыть</a></li>
-            </ul>
-            </li>
-            <li class="prav"><a href=""> Правка</a>
-                <ul class="submenu">
-                    <li><a href="">Вырезать</a></li>
-                    <li><a href=""> Копировать</a></li>
-                    <li><a href="">Вставить</a></li>
-                    <li><a href=""> Удалить</a></li>
-                </ul>
-            </li>
+
+<ul class="menu">
+    <li class="open"> <a href="#"> Файл</a>
+        <ul class="upmenu">
+            <li>Новый</li>
+            <li>Открыть</li>
+            <li>Сохранить</li>
+            <li>Закрыть</li>
         </ul>
-    </nav>
+    </li>
+    <li class="open2"> <a href="#"> Правка</a>
+        <ul class="upmenu">
+            <li>Вырезать</li>
+            <li>Копировать</li>
+            <li>Вставить</li>
+            <li>Удалить</li>
+        </ul>
+    </li>
+</ul>
 
 </body>
 </html>
