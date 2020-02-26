@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            overflow: hidden;
+        }
+        div {
+            width: 50px;
+            height: 50px;
+            background: #5bc1fe;
+            border-radius: 50%;
+            margin: auto;
+        }
+        td:hover div {
+            background: black;
+        }
+        td, th {
+            border: 1px solid black;
+            position: relative;
+        }
+        td {
+            width: 60px;
+            height: 60px;
+        }
+        tr:hover {
+            background: #ffe581;
+        }
+        td:hover:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -5000px;
+            height: 10000px;
+            width: 100%;
+            background: #ffe581;
+            z-index: -1;
+        }
+        td:hover {
+            background: #ffcd00;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+    </tr>
+    <tr>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+    </tr>
+    <tr>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+    </tr>
+    <tr>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+    </tr>
+    <tr>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+        <td><div></div></td>
+    </tr>
+
+</body>
+</html>
