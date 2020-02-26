@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input[type=checkbox] {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        label {
+            display: block;
+            background: #08C;
+            padding: 5px;
+            border: 1px solid rgba(0,0,0,.1);
+            border-radius: 2px;
+            color: white;
+            font-weight: bold;
+        }
+
+        input[type=checkbox]:checked ~ .to-be-changed {
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<input type="checkbox" id="toggle">
+<label for="toggle">Нажми меня!</label>
+<p class="to-be-changed">Здесь будет красный цвет. Или уже есть...</p>
+
+
+</body>
+</html>
