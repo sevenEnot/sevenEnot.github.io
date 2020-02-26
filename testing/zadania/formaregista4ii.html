@@ -62,34 +62,116 @@
             color: white;
             border: 1px solid black;
         }
+        input:valid + span.qwe1:after {
+            content:"";
+            background-image: url("galks.png");
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-size: cover;
+            top: 60px;
+        }
+        input:valid + span.qwe2:after {
+            content:"";
+            background-image: url("galks.png");
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-size: cover;
+            top: 90px;
+        }
+        input:valid + span.qwe3:after {
+            content:"";
+            background-image: url("galks.png");
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-size: cover;
+            top: 120px;
+        }
+        input:valid + span.qwe4:after {
+            content:"";
+            background-image: url("galks.png");
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-size: cover;
+            top: 165px;
+        }
+        input:valid + span.qwe5:after {
+            content:"";
+            background-image: url("galks.png");
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-size: cover;
+            top: 195px;
+        }
+        input:valid + span.qwe6:after {
+            content:"";
+            background-image: url("galks.png");
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-size: cover;
+            top: 225px;
+        }
+        input:valid + span.qwe7:after {
+            content:"";
+            background-image: url("galks.png");
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-size: cover;
+            top: 295px;
+        }
+        input:invalid + span.qwe7:after {
+            content:"Неправильное число ";
+            position: relative;
+            top: -16px;
+            left: 15px;
+            color: red;
+        }
+        input:invalid + span.qwe7:before {
+            content: "";
+            background-image: url("net.png");
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            background-size: cover;
+            top: 300px;
+            left: 302px;
+        }
     </style>
 </head>
 <body>
-
+<form>
 <header>
 <label>Имя</label>
-<input class="im9" type="text"><br>
+<input class="im9" type="text" required><span class="qwe1"></span><br>
 <label>Фамилия</label>
-<input class="fam" type="text"><br>
+<input class="fam" type="text" required><span class="qwe2"></span><br>
 <label>Город</label>
-<input class="gorod" type="text">
+<input class="gorod" type="text" required><span class="qwe3"></span>
 <br>
 <br>
 <label>Эл.почта</label>
-<input class="maile" type="email"><br>
+<input class="maile" type="email" required><span class="qwe4"></span><br>
 <label>Пароль</label>
-<input class="pas" type="password"><br>
+<input class="pas" type="password" required><span class="qwe5"></span><br>
 <label>Повторите</label>
-<input class="pass2" type="password">
+<input class="pass2" type="password" required><span class="qwe6"></span>
+
 <br>
 <br>
 <label>Введите число с картинки<br>
     <img src="nomer.png">
-    <input class="islo" type="text">
+    <input class="islo" type="text" pattern="55102" required ><span class="qwe7"></span>
 </label>
 </header>
 <footer>
     <button type="submit">Зарегистрироваться</button>
 </footer>
+</form>
 </body>
 </html>

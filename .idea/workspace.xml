@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdc360dc-6c78-4e09-8d50-ceebb737c977" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="bdc360dc-6c78-4e09-8d50-ceebb737c977" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/zadania/formaregista4ii.html" beforeDir="false" afterPath="$PROJECT_DIR$/testing/zadania/formaregista4ii.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testing/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="68" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testing/zadania/grani4avokrugform.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#legend#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="sevenEnot.github.io" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,55 +23,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/qrcode/index.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/androidvteni.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/asuanskaplotina.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/verxnizindex.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/vlosjenniespiski.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/zagolovko.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/vHTML5.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/specsimvol.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/oshibki1.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/oshibki2.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/os.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/oshibki4.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/oshibki5.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/karti.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/nymerovaniiimark.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/tabli4a.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/optimiza4i9css.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/mesjdyblokov.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/poledl94isel.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/poledl9poiska.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/rabotasobza4ami.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/razno4wetniesillki.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/risovanaiaramka.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/sozdaniewebstrani4.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/sozdaniessilok2.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/sozdaniestrani4.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/stildl9pe4ati.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/4цуеащтфшеулыеф.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/wetfonaiteksta.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/4wetifontabli4i.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/vivorotka.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/oshibki3.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/op9tbtabli4.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/stixotworenie.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/flag9ponii.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/4eredqadrat.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/shirinatabl.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/Batareika.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/virezanieygolki.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/glamknopka.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/gradientnieknopki.html" />
-        <option value="$PROJECT_DIR$/testing/index.html" />
-        <option value="$PROJECT_DIR$/testing/zadania/grani4avokrugform.html" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -105,45 +33,16 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="516" />
-    <option name="y" value="95" />
-    <option name="width" value="720" />
-    <option name="height" value="860" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sevenEnot.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sevenEnot.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sevenEnot.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sevenEnot.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sevenEnot.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sevenEnot.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
-              <item name="zadania" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1YJBvlG4AYz5NK4L3sZLzedVTJj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -152,18 +51,25 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="JavaScript Debug.formaregista4ii.html">
+    <configuration name="formaregista4ii.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sevenEnot.github.io/testing/zadania/formaregista4ii.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sevenEnot.github.io/testing/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="socialniesw9zi.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sevenEnot.github.io/testing/zadania/socialniesw9zi.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="JavaScript Debug.formaregista4ii.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.socialniesw9zi.html" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -183,387 +89,88 @@
       <workItem from="1580967171947" duration="14388000" />
       <workItem from="1581060239944" duration="3538000" />
       <workItem from="1581078149781" duration="38000" />
+      <workItem from="1582651053606" duration="2758000" />
+      <workItem from="1582728750768" duration="8000" />
+      <workItem from="1582728781188" duration="4636000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53867000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3293011" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qrcode/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/tex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/verxnizindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="106" selection-start-line="19" selection-start-column="106" selection-end-line="19" selection-end-column="106" />
-          <folding>
-            <element signature="e#168#176#0" expanded="true" />
-            <element signature="e#403#411#0" expanded="true" />
-            <element signature="e#439#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/vlosjenniespiski.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/zagolovko.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/vHTML5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="87" column="14" lean-forward="true" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
-          <folding>
-            <element signature="e#1514#1520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/specsimvol.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="e#104#110#0" expanded="true" />
-            <element signature="e#158#164#0" expanded="true" />
-            <element signature="e#570#577#0" expanded="true" />
-            <element signature="e#611#618#0" expanded="true" />
-            <element signature="e#652#659#0" expanded="true" />
-            <element signature="e#681#688#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/oshibki1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/oshibki5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/nymerovaniiimark.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/mnogo4elen.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/optimiza4i9css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Отступы между блоков.url" />
-    <entry file="file://$PROJECT_DIR$/testing/zadania/poledl9poiska.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/poledl94isel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/asuanskaplotina.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/karti.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/mesjdyblokov.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/rabotasobza4ami.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/razno4wetniesillki.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/risovanaiaramka.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/sozdaniewebstrani4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/sozdaniessilok2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/sozdaniestrani4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/stildl9pe4ati.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/tabli4a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/4цуеащтфшеулыеф.html" />
-    <entry file="file://$PROJECT_DIR$/testing/zadania/wetfonaiteksta.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/4wetifontabli4i.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#td#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/oshibki4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="69" lean-forward="true" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/oshibki2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/oshibki3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/op9tbtabli4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/stixotworenie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/vivorotka.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/flag9ponii.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/4eredqadrat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/shirinatabl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/virezanieygolki.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/Batareika.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/glamknopka.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/android.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/androidvteni.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/gradientnieknopki.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="68" selection-start-line="80" selection-start-column="68" selection-end-line="80" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testing/zadania/grani4avokrugform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#legend#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="362" y="225" width="1200" height="800" key="DiffContextDialog" timestamp="1582728881587">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="362" y="225" width="1200" height="800" key="DiffContextDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1582728881587" />
+    <state width="1253" height="471" key="GridCell.Tab.0.bottom" timestamp="1582733536695">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536695" />
+    <state width="1379" height="303" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920436" />
+    <state width="1253" height="471" key="GridCell.Tab.0.center" timestamp="1582733536694">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536694" />
+    <state width="1379" height="303" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920435" />
+    <state width="1253" height="471" key="GridCell.Tab.0.left" timestamp="1582733536694">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536694" />
+    <state width="1379" height="303" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920434" />
+    <state width="1253" height="471" key="GridCell.Tab.0.right" timestamp="1582733536694">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536694" />
+    <state width="1379" height="303" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920435" />
+    <state width="1253" height="471" key="GridCell.Tab.1.bottom" timestamp="1582733536696">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536696" />
+    <state width="1379" height="303" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920436" />
+    <state width="1253" height="471" key="GridCell.Tab.1.center" timestamp="1582733536695">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536695" />
+    <state width="1379" height="303" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920436" />
+    <state width="1253" height="471" key="GridCell.Tab.1.left" timestamp="1582733536695">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536695" />
+    <state width="1379" height="303" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920436" />
+    <state width="1253" height="471" key="GridCell.Tab.1.right" timestamp="1582733536696">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536696" />
+    <state width="1379" height="303" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920436" />
+    <state width="1253" height="471" key="GridCell.Tab.2.bottom" timestamp="1582733536697">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536697" />
+    <state width="1379" height="303" key="GridCell.Tab.2.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920437" />
+    <state width="1253" height="471" key="GridCell.Tab.2.center" timestamp="1582733536697">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536697" />
+    <state width="1379" height="303" key="GridCell.Tab.2.center/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920437" />
+    <state width="1253" height="471" key="GridCell.Tab.2.left" timestamp="1582733536696">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536696" />
+    <state width="1379" height="303" key="GridCell.Tab.2.left/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920437" />
+    <state width="1253" height="471" key="GridCell.Tab.2.right" timestamp="1582733536697">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1253" height="471" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1582733536697" />
+    <state width="1379" height="303" key="GridCell.Tab.2.right/0.23.2560.1337@0.23.2560.1337" timestamp="1582728920437" />
+    <state x="39" y="475" key="SettingsEditor" timestamp="1582653656060">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="39" y="475" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1582653656060" />
+    <state x="365" y="467" width="670" height="729" key="search.everywhere.popup" timestamp="1582731426558">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="365" y="467" width="670" height="729" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1582731426558" />
+    <state x="365" y="457" width="670" height="676" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1582651866154" />
   </component>
 </project>
