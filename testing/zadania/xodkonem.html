@@ -4,35 +4,56 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        input[type=checkbox] {
+
+        table{
+            margin: 40px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            width: 80px;
+            height: 80px;
+            position: relative;
+        }
+        input{
             position: absolute;
-            top: -9999px;
-            left: -9999px;
+            top: -300px;
         }
-
-        label {
-            display: block;
-            background: #08C;
-            padding: 5px;
-            border: 1px solid rgba(0,0,0,.1);
-            border-radius: 2px;
-            color: white;
-            font-weight: bold;
-        }
-
-        input[type=checkbox]:checked ~ .to-be-changed {
+        input:checked::after{
+            content: "♘";
             color: red;
+            font-size: 70px;
+            font-weight: 500;
+            position: relative;
+            top:290px;
+            left: 3px;
         }
-
+        label{
+            width: 80px;
+            height: 80px;
+            display: block;
+        }
 
     </style>
 </head>
 <body>
-
-<input type="checkbox" id="toggle">
-<label for="toggle">Нажми меня!</label>
-<p class="to-be-changed">Здесь будет красный цвет. Или уже есть...</p>
-
+<table>
+    <tr>
+        <td><label><input type="checkbox"></label></td>
+        <td><label><input type="checkbox"></label></td>
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+    <tr>
+        <td><label><input type="checkbox"></label></td>
+        <td><label><input type="checkbox"></label></td>
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+    <tr>
+        <td><label><input type="checkbox"></label></td>
+        <td><label><input type="checkbox"></label></td>
+        <td><label><input type="checkbox"></label></td>
+    </tr>
+</table>
 
 </body>
 </html>
