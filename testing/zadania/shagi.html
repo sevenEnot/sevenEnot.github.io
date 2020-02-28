@@ -8,12 +8,35 @@
             margin: 50px;
         }
         div {
-            border: 1px solid black;
             display: inline-block;
             margin-left: -5px;
             padding: 5px 20px 5px 20px;
             background: linear-gradient(0deg, #dfdfdf,#c0c0c0 50%,#dfdfdf);
         }
+        .line:after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 22px;
+            background: white;
+            transform: rotate(-20deg) translate(16px);
+            top: 51px;
+        }
+        .line:before {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 21px;
+            background: white;
+            transform: rotate(21deg) translate(61px);
+            top: 41px;
+        }
+        div:hover {
+            background: linear-gradient(0deg, #a8df80, #66C621 50%, #a8df80);
+            color: white;
+        }
+
+
         
     </style>
 </head>
