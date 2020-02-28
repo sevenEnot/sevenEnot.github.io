@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 80px;
+        }
+        div {
+            width: 300px;
+            height: 60px;
+            background: #f0f0f0;
+            display: flex;
+        }
+        .cont{
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        p {
+            margin: auto 23px;
+        }
+        .top {
+            position: absolute;
+            background: white;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            width: 300px;
+            height: 100px;
+            top: 60px;
+            left: 79px;
+            z-index: -1;
+        }
+        .rig {
+            position: absolute;
+            background: white;
+            width: 340px;
+            height: 60px;
+            top: 80px;
+            left: 60px;
+            z-index: -2;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="cont"><p>Рабочий эскиз</p></div>
+    <div class="rig"></div>
+
+</body>
+</html>
