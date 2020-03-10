@@ -2,40 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
 
-        header {
-            width: 472px;
+        /*header*/
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding:0px;
+        }
+        li {
+            border: 1px solid black;
+            display: inline-block;
+        }
+        nav {
+            border-radius: 3px;
+            background: #82BBE8;
+            box-shadow: 0px 5px 5px 0px rgba(140, 150, 159, 0.75);
+            width: 473px;
             height: 41px;
-            background: #7fb8e6;
-            position: absolute;
-        }
-        div{
-            display: inline-block;
-        }
-         p{
-            display: inline-block;
-             margin-top: 14px;
-             margin-bottom: 15px;
-             font-size: 14px;
-             font-family: "Arial";
-             color: rgb(255, 255, 255);
-             line-height: 1.571;
-             text-align: left;
         }
         img {
             float: left;
-            margin: 11px 3px 10px 10px;
+        }
+        .icon-on {
+           margin: 11px 3px 10px 10px;
+        }
+        span {
+            display: inline-block;
+            font-size: 14px;
+            font-family: Arial;
+            padding-top: 17px;
+            padding-bottom: 15px;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <div class="on"><img src="notepad.png"><p>Описание</p> </div>
-        <div class="on"><img src="bottle.png"><a href="#">Ингредиенты</a> </div>
-    </header>
+        <nav>
+            <ul>
+                <li class="li-on"><img src="notepad.png" class="icon-on"><span>Описание</span></li>
+                <li><img src="bottle.png">Ингредиенты</li>
+                <li><img src="plate.png">Параметры</li>
+            </ul>
+        </nav>
 
 </body>
 </html>
