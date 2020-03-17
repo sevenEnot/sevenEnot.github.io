@@ -7,48 +7,87 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-
-        /*header*/
+        nav {
+        }
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            font-family: "Arial";
+            line-height: 1.571;
+            color: white;
+        }
         ul {
-            list-style-type: none;
-            margin: 0px;
-            padding:0px;
+            display: flex;
+            margin-left: 82px;
+            margin-top: 11px;
         }
         li {
-            border: 1px solid black;
-            display: inline-block;
+            list-style-type: none;
+            background-image: linear-gradient( 90deg, rgb(72,130,202) 0%, rgb(130,187,232) 100%);
+            padding-bottom: 6px;
         }
-        nav {
-            border-radius: 3px;
-            background: #82BBE8;
-            box-shadow: 0px 5px 5px 0px rgba(140, 150, 159, 0.75);
-            width: 473px;
-            height: 41px;
+        .onText {
+            padding-left: 5px;
+            vertical-align: 4px;
         }
-        img {
-            float: left;
+        .onImg {
+            padding-top: 11px;
+            padding-left: 9px;
         }
-        .icon-on {
-           margin: 11px 3px 10px 10px;
+        .on:after{
+            content: "";
+            position: absolute;
+            border-style: solid;
+            border-width: 20.5px 0 20.5px 13px;
+            border-color: transparent transparent transparent black;
+            background:linear-gradient(0deg, rgb(42,87,146) -1%, rgb(88,157,210) 64%);
         }
-        span {
-            display: inline-block;
-            font-size: 14px;
-            font-family: Arial;
-            padding-top: 17px;
-            padding-bottom: 15px;
+        .on {
+            background:linear-gradient(0deg, rgb(42,87,146) -1%, rgb(88,157,210) 64%);
         }
+
+
+        .toImg {
+            padding-left: 22px;
+            padding-top: 7px;
+            margin-right: 6px;
+        }
+        .toText {
+            vertical-align: 5px;
+        }
+
+
+        .threeImg {
+            padding-left: 19px;
+            padding-top: 7px;
+            margin-right: 7px;
+        }
+        .threeText {
+            vertical-align: 4px;
+        }
+
+        .foImg {
+            padding-left: 21px;
+            padding-top: 7px;
+            margin-right: 7px;
+        }
+        .foText {
+            vertical-align: 4px;
+            padding-right: 33px;
+        }
+
+
     </style>
 </head>
 <body>
 
-        <nav>
-            <ul>
-                <li class="li-on"><img src="notepad.png" class="icon-on"><span>Описание</span></li>
-                <li><img src="bottle.png">Ингредиенты</li>
-                <li><img src="plate.png">Параметры</li>
-            </ul>
-        </nav>
-
+    <nav>
+        <ul>
+            <li class="on"><img src="notepad.png" class="onImg"><a href="#" class="onText">Описание</a></li>
+            <li class="to"><img src="bottle.png" class="toImg"><a href="#" class="toText">Ингредиенты</a> </li>
+            <li class="three"><img src="plate.png" class="threeImg"><a href="#" class="threeText">Параметры</a> </li>
+            <li class="fo"><img src="goblet.png" class="foImg"><a href="#" class="foText">Бокалы</a> </li>
+        </ul>
+    </nav>
 </body>
 </html>
