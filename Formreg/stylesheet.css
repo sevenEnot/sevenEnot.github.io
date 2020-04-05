@@ -1,0 +1,13 @@
+.header {
+    border: 1px solid black;
+    background: #43f0f0;
+    width: 400px;
+}
+.nameForm {
+    background: #909497;
+    margin: 30px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
