@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<header>
+    <div>Выберите ответы</div>
+    <label class="text" id="text">Вам нравяться ужесы</label>
+    <br>
+    <input type="radio" name="wibor" checked value="da" id="on">    <label>ДА</label>
+    <input type="radio" name="wibor" value="net" id="two">           <label>Нет</label>
+    <br>
+    <label id="otvet"></label>
+    <button id="inter" onclick="onclick">Выбрать</button>
+</header>
+
+<script>
+    window.onload = function () {
+        document.getElementById('inter').onclick = function () {
+            document.getElementById('on').checked=true;
+        }
+    }
+</script>
+
+</body>
+</html>
