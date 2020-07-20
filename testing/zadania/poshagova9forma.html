@@ -20,7 +20,6 @@
             display: flex;
             margin-left: 82px;
             margin-top: 11px;
-            border: 1px solid black;
         }
         li {
             list-style-type: none;
@@ -100,7 +99,58 @@
             background-image: linear-gradient( 0deg, rgb(72,130,202) -1%, rgb(130,187,232) 55%);
             z-index: -4;
         }
+        .textMenu {
+            font-size: 13px;
+            color: black;
+        }
+        .notto {
+            margin-left: 142px;
+            margin-top: 6px;
+        }
+        header {
+            background-color: rgb(233, 233, 233);
+        }
+        .photo {
+            background-image: linear-gradient( 0deg, rgb(72,130,202) -1%, rgb(130,187,232) 55%);
+            width: 88px;
+            height: 130px;
+            margin-left: 141px;
+            margin-top: 4px;
+            border: 5px solid white;
+            border-radius: 4px;
+            box-shadow: 0 0 1px 1px #b7b8b8;
+        }
+        .photoStakan {
+            padding-top: 4px;
+            padding-left: 7px;
+        }
+        .zag {
+            border: 0px solid black;
+            border-radius: 4px;
+            background-image: linear-gradient( 0deg, rgb(72,130,202) -1%, rgb(130,187,232) 55%);
+            margin-left: 139px;
+            margin-top: 8px;
+            padding-top: 0px;
+            padding-right: 22px;
+            padding-left: 20px;
+        }
 
+        .zagg {
+            Font-size: 13px;
+        }
+        .nameCok {
+            padding-left: 8px;
+            font-size: 10px;
+            margin-top: -169px;
+            float: left;
+            margin-left: 250px;
+            width: 314px;
+            height: 17px;
+            border-radius: 4px;
+            border: 1px solid #b7b8b8;
+            padding-top: 7px;
+            font-size: 12px;
+        }
 
     </style>
 </head>
@@ -114,5 +164,17 @@
             <li class="fo"><img src="goblet.png" class="foImg"><a href="#" class="foText">Бокалы</a> </li>
         </ul>
     </nav>
+
+
+    <header>
+        <div><img class="notto" src="notepad.png"> <a href="#" class=textMenu>Описание</a></div>
+        <div class="photo"><img class="photoStakan" src="stakan.png"></div>
+        <button class="zag"><a href="#" class="zagg"> Загрузить</a></button>
+    </header>
+
+<div>
+    <textarea class="nameCok"  placeholder="Название коктейля "></textarea>
+</div>
+
 </body>
 </html>
