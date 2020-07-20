@@ -125,6 +125,7 @@
             padding-left: 7px;
         }
         .zag {
+            float: left;
             border: 0px solid black;
             border-radius: 4px;
             background-image: linear-gradient( 0deg, rgb(72,130,202) -1%, rgb(130,187,232) 55%);
@@ -140,8 +141,7 @@
         }
         .nameCok {
             padding-left: 8px;
-            font-size: 10px;
-            margin-top: -169px;
+            margin-top: -330px;
             float: left;
             margin-left: 250px;
             width: 314px;
@@ -151,6 +151,63 @@
             padding-top: 7px;
             font-size: 12px;
         }
+
+        .nameCok2 {
+            padding-left: 8px;
+            margin-top: -292px;
+            float: left;
+            margin-left: 250px;
+            width: 314px;
+            height: 17px;
+            border-radius: 4px;
+            border: 1px solid #b7b8b8;
+            padding-top: 7px;
+            font-size: 12px;
+        }
+        .nameCok3 {
+            padding-left: 8px;
+            margin-top: -254px;
+            float: left;
+            margin-left: 250px;
+            width: 314px;
+            height: 81px;
+            border-radius: 4px;
+            border: 1px solid #b7b8b8;
+            padding-top: 7px;
+            font-size: 12px;
+        }
+        .nameCok4 {
+            padding-left: 8px;
+            margin-top: -152px;
+            float: left;
+            margin-left: 140px;
+            width: 424px;
+            height: 88px;
+            border-radius: 4px;
+            border: 1px solid #b7b8b8;
+            padding-top: 7px;
+            font-size: 12px;
+        }
+        .inter {
+            background-image: linear-gradient( 0deg, rgb(72,130,202) -1%, rgb(130,187,232) 55%);
+            margin-top: 151px;
+            margin-left: 248px;
+            padding-right: 0px;
+            font-size: 12px;
+            margin-bottom: 18px;
+            padding-left: 2px;
+            color: white;
+            height: 21px;
+
+
+        }
+        .inter::after {
+            content: url(knopkainter.png);
+            position: absolute;
+            left: 495px;
+            top: 394px;
+        }
+
 
     </style>
 </head>
@@ -170,11 +227,14 @@
         <div><img class="notto" src="notepad.png"> <a href="#" class=textMenu>Описание</a></div>
         <div class="photo"><img class="photoStakan" src="stakan.png"></div>
         <button class="zag"><a href="#" class="zagg"> Загрузить</a></button>
+        <button class="inter">Ингредиенты</button>
     </header>
 
 <div>
     <textarea class="nameCok"  placeholder="Название коктейля "></textarea>
+    <textarea class="nameCok2"  placeholder="Альтернативное название через запятую"></textarea>
+    <textarea class="nameCok3"  placeholder="Краткое описание"></textarea>
+    <textarea class="nameCok4"  placeholder="Инструкция для приготовления"></textarea>
 </div>
-
 </body>
 </html>
