@@ -104,17 +104,22 @@
             color: black;
         }
         .notto {
-            margin-left: 142px;
-            margin-top: 6px;
+            margin-left: 19px;
+            margin-top: 22px;
         }
         header {
             background-color: rgb(233, 233, 233);
+            margin-left: 122px;
+            width: 470px;
+            height: 380px;
+            border: 1px solid;
+            margin-top: -17px;
         }
         .photo {
             background-image: linear-gradient( 0deg, rgb(72,130,202) -1%, rgb(130,187,232) 55%);
             width: 88px;
             height: 130px;
-            margin-left: 141px;
+            margin-left: 18px;
             margin-top: 4px;
             border: 5px solid white;
             border-radius: 4px;
@@ -129,7 +134,7 @@
             border: 0px solid black;
             border-radius: 4px;
             background-image: linear-gradient( 0deg, rgb(72,130,202) -1%, rgb(130,187,232) 55%);
-            margin-left: 139px;
+            margin-left: 16px;
             margin-top: 8px;
             padding-top: 0px;
             padding-right: 22px;
@@ -188,25 +193,39 @@
             padding-top: 7px;
             font-size: 12px;
         }
-        .inter {
-            background-image: linear-gradient( 0deg, rgb(72,130,202) -1%, rgb(130,187,232) 55%);
+        .inter{
+            position: relative;
+            width: 100%;
             margin-top: 151px;
-            margin-left: 248px;
-            padding-right: 0px;
-            font-size: 12px;
-            margin-bottom: 18px;
-            padding-left: 2px;
-            color: white;
-            height: 21px;
-
-
+            margin-left: 364px;
+            padding-bottom:12px ;
         }
-        .inter::after {
-            content: url(knopkainter.png);
+
+        .textinter {
             position: absolute;
-            left: 495px;
-            top: 394px;
+            margin-left: -85px;
+            font-size: 12px;
+            margin-top: 2px;
         }
+
+        .textinter:after {
+            position: absolute;
+            content: url("right.png");
+            margin-top: 17px;
+            margin-left: 10px;
+        }
+
+        .textMenu:after {
+            position: absolute;
+            content: url("left2.png");
+            margin-left: -103px;
+            margin-top: -3px;
+        }
+
+
+
+
+
 
 
     </style>
@@ -227,7 +246,11 @@
         <div><img class="notto" src="notepad.png"> <a href="#" class=textMenu>Описание</a></div>
         <div class="photo"><img class="photoStakan" src="stakan.png"></div>
         <button class="zag"><a href="#" class="zagg"> Загрузить</a></button>
-        <button class="inter">Ингредиенты</button>
+        <div class="inter">
+            <img src="knopkainter.png">
+            <a href="#" class="textinter">Ингредиенты</a>
+        </div>
+
     </header>
 
 <div>
