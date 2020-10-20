@@ -9,3 +9,8 @@
 body {
 margin-top: 40px;
 }
+
+.border-list {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
