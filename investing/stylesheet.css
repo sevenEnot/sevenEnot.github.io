@@ -10,7 +10,12 @@ body {
 margin-top: 40px;
 }
 
-.border-list {
+.onElement{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+.lastElement {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
