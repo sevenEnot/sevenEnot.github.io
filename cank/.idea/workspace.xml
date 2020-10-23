@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b6da4c-d911-47e0-9067-d71f02c0e066" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="e54682c7-a94c-4f97-a9bf-71ebdf41d79d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../investing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../investing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../investing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../investing/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +33,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1j6EueuDGxEym2iT2hPHIaCGVgq" />
+  <component name="ProjectId" id="1jEla43r4AD8eZdrV5cL3bKd9EI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,7 +49,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,15 +60,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29b6da4c-d911-47e0-9067-d71f02c0e066" name="Default Changelist" comment="" />
-      <created>1603116370469</created>
+      <changelist id="e54682c7-a94c-4f97-a9bf-71ebdf41d79d" name="Default Changelist" comment="" />
+      <created>1603377191986</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603116370469</updated>
-      <workItem from="1603116375727" duration="3960000" />
-      <workItem from="1603194386431" duration="6833000" />
-      <workItem from="1603215967416" duration="5612000" />
-      <workItem from="1603357633492" duration="8268000" />
+      <updated>1603377191986</updated>
+      <workItem from="1603377193004" duration="1014000" />
+      <workItem from="1603452031112" duration="7820000" />
     </task>
     <servers />
   </component>
