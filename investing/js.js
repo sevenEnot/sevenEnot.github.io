@@ -81,6 +81,8 @@ function calcAndShow(){
     $('#bar-right').text(moneyFormat(upKesh));
 
 
+
+
     // document.querySelector('.profit').innerHTML = '<br>Вы заработали ' +finishFor
        // +'<br> Дополнительно внесли ' +addKesh
        // + '<br> Заработали на процентах ' +upKesh;
@@ -122,22 +124,34 @@ $('#action-list a').click(e => {
 
 
 
-var ctx = document.getElementById('myChart').getContext('2d');
-var chart = new Chart(ctx, {
-    // The type of chart we want to create
-    type: 'line',
 
-    // The data for our dataset
-    data: {
-        labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021'],
-        datasets: [{
-            label: 'My First dataset',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: [0, 11, 12, 22, 4, 20, 25]
-        }]
-    },
+var canvas = document.getElementById('myChart');
+var data = {
+    labels: ['2015', '2016', '2017', '2018', '2019'],
+    datasets: [
+        {
+            label: 'Динамика роста за 5 лет',
+            backgroundColor: 'dodgerblue',
+            borderColor: 'dodgerblue',
+            data: [5, 10, 11, 17, 19],
+        }
+    ]
+};
 
-    // Configuration options go here
-    options: {}
+function adddata(){
+    let action = parseInt($('#action-list a.active').data('value'));
+    myLineChart.data.datasets[0].data[5] = action;
+    myLineChart.data.labels[5] = "2020";
+    myLineChart.update();
+    calcAndShow();
+}
+
+var option = {
+    showLines: true
+
+};
+
+var myLineChart = Chart.Line(canvas,{
+    data:data,
+    options:option
 });
