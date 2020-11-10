@@ -60,9 +60,13 @@ function calcAndShow(){
         return
     }
 
+    let plt =  parseInt($('#toSumm').val().replace(/[^0-9]/gmu, ''));
+    if (isNaN(plt) || plt <= 0){
+        return
+    }
+
     let action = parseInt($('#action-list a.active').data('value'));
 
-    let plt = +document.querySelector('.toSumm').value;
 
     let [finishFor, addKesh, upKesh] = invest(startSumm, plt, action)
 
@@ -85,7 +89,6 @@ function calcAndShow(){
 $('#onSumm').on("input", function (e) {
     calcAndShow();
 });
-
 $('#btn-group-on').click(e => {
     const btn = $(e.target);
     const text = btn.text();
@@ -95,9 +98,46 @@ $('#btn-group-on').click(e => {
     calcAndShow();
 } )
 
+
+$('#toSumm').on('input', function (e){
+    calcAndShow();
+});
+$('#btn-group-to').click(e =>{
+    const btn = $(e.target);
+    const text = btn.text();
+    $('#btn-group-to .active').removeClass('active');
+    btn.addClass('active');
+    $('#toSumm').val(text);
+    calcAndShow();
+})
+
+
+
 $('#action-list a').click(e => {
     e.preventDefault()
     $('#action-list a').removeClass('active');
     $(e.currentTarget).addClass('active');
     calcAndShow();
 })
+
+
+
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: [0, 11, 12, 22, 4, 20, 25]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});

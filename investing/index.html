@@ -50,10 +50,15 @@
                 <label class="profit"></label>
             </div>
             <div class="progress">
-                <div id="bar-left" class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
-                <div id="bar-right" class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">10%</div>
+                <div id="bar-left" class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div id="bar-right" class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <button onclick="calcAndShow()">Расчитать</button>
+            <div class="col">
+                <h1>Динамика роста акции за последние 5 лет:</h1>
+                <div>
+                    <canvas id="myChart" width="300" height="200"></canvas>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row">
@@ -75,21 +80,20 @@
             </form>
         </div>
 
-        <div class="col">
-            <h1>Динамика роста акции за последние 5 лет:</h1>
-        </div>
+
     </div>
     <div class="row">
         <div class="col">
             <h1>Ежемесячные пополнения на сумму:</h1>
-            <div class="btn-group" role="group" aria-label="Basic example">
+            <div class="btn-group" role="group" aria-label="Basic example"
+            id="btn-group-to">
                 <button  type="button" class="btn btn-secondary">5000</button>
                 <button  type="button" class="btn btn-secondary">1000</button>
                 <button  type="button" class="btn btn-secondary">500</button>
             </div>
             <form class="kesh">
                 <div class="form-group">
-                    <input type="text" class="toSumm">
+                    <input type="text"  id="toSumm">
                     <small class="form-text text-muted">Введите свою сумму</small>
                 </div>
             </form>
@@ -112,6 +116,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"  crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="./js.js"></script>
 </body>
 </html>
