@@ -8,14 +8,14 @@
     <title>Invest</title>
 
 </head>
-<body>
+<body onload="calcAndShow()">
 
 <div class="container">
     <div class="row ">
         <div class="col-sm list-group" id="action-list" onclick="adddata()">
             <h1>Сегодня</h1>
             <h3>Я покупаю акции:</h3>
-            <a href="#" data-value="25" class="list-group-item list-group-item-action onElement ">
+            <a href="#" data-value="25" class="list-group-item list-group-item-action onElement active ">
                 <div style="font-size: 25px"><img style="width: 35px; height: 35px; border-radius: 50%;" src="apple.png"> Apple</div>
                 <p class="mb-1">Американская корпорация, производитель персональных и планшетных компьютеров, аудиоплееров, телефонов, программного обеспечения</p>
             </a>
@@ -74,7 +74,7 @@
             </div>
             <form class="kesh">
                 <div class="form-group">
-                    <input type="text" id="onSumm">
+                    <input type="text" id="onSumm" value="500">
                     <small class="form-text text-muted">Введите свою сумму</small>
                 </div>
             </form>
@@ -93,7 +93,7 @@
             </div>
             <form class="kesh">
                 <div class="form-group">
-                    <input type="text"  id="toSumm">
+                    <input type="text"  id="toSumm" value="100">
                     <small class="form-text text-muted">Введите свою сумму</small>
                 </div>
             </form>

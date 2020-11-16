@@ -131,8 +131,11 @@ var data = {
     datasets: [
         {
             label: 'Динамика роста за 5 лет',
-            backgroundColor: 'dodgerblue',
-            borderColor: 'dodgerblue',
+            fill: false,
+            borderColor: "rgb(4,123,254)",
+            pointBorderColor: "rgba(75,192,192,1)",
+            pointBackgroundColor: "white",
+            pointRadius: 5,
             data: [5, 10, 11, 17, 19],
         }
     ]
