@@ -1,12 +1,6 @@
-function number_format( number, decimals, dec_point, thousands_sep ) {	// Format a number with grouped thousands
-    //
-    // +   original by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
-    // +   improved by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
-    // +	 bugfix by: Michael White (http://crestidg.com)
-
+function number_format( number, decimals, dec_point, thousands_sep ) {
     var i, j, kw, kd, km;
 
-    // input sanitation & defaults
     if( isNaN(decimals = Math.abs(decimals)) ){
         decimals = 2;
     }
@@ -16,21 +10,15 @@ function number_format( number, decimals, dec_point, thousands_sep ) {	// Format
     if( thousands_sep == undefined ){
         thousands_sep = ".";
     }
-
     i = parseInt(number = (+number || 0).toFixed(decimals)) + "";
-
     if( (j = i.length) > 3 ){
         j = j % 3;
     } else{
         j = 0;
     }
-
     km = (j ? i.substr(0, j) + thousands_sep : "");
     kw = i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands_sep);
-    //kd = (decimals ? dec_point + Math.abs(number - i).toFixed(decimals).slice(2) : "");
     kd = (decimals ? dec_point + Math.abs(number - i).toFixed(decimals).replace(/-/, 0).slice(2) : "");
-
-
     return km + kw + kd;
 }
 
@@ -59,7 +47,6 @@ function calcAndShow(){
     if (isNaN(startSumm) || startSumm <= 0){
         return
     }
-
     let plt =  parseInt($('#toSumm').val().replace(/[^0-9]/gmu, ''));
     if (isNaN(plt) || plt <= 0){
         return
@@ -69,7 +56,6 @@ function calcAndShow(){
 
 
     let [finishFor, addKesh, upKesh] = invest(startSumm, plt, action)
-
     $('#itogSumm').text(moneyFormat(finishFor))
 
     let right = Math.max (upKesh / finishFor,0.2);
@@ -81,12 +67,10 @@ function calcAndShow(){
     $('#bar-right').text(moneyFormat(upKesh));
 
 
-
-
-    // document.querySelector('.profit').innerHTML = '<br>Вы заработали ' +finishFor
-       // +'<br> Дополнительно внесли ' +addKesh
-       // + '<br> Заработали на процентах ' +upKesh;
 }
+
+
+
 
 $('#onSumm').on("input", function (e) {
     calcAndShow();
@@ -98,8 +82,7 @@ $('#btn-group-on').click(e => {
     btn.addClass('active');
     $('#onSumm').val(text);
     calcAndShow();
-} )
-
+} );
 
 $('#toSumm').on('input', function (e){
     calcAndShow();
@@ -111,7 +94,7 @@ $('#btn-group-to').click(e =>{
     btn.addClass('active');
     $('#toSumm').val(text);
     calcAndShow();
-})
+});
 
 
 
@@ -119,8 +102,161 @@ $('#action-list a').click(e => {
     e.preventDefault()
     $('#action-list a').removeClass('active');
     $(e.currentTarget).addClass('active');
+    showApplPrice('AAPL');
+    showVisaPrice('V');
+    showMSFTPrice('MSFT');
+    showGazPrice('GAZ');
+    showLukoyPrice('LUKOY');
+    showCscoPrice('CSCO');
     calcAndShow();
 })
+
+
+
+
+async function getApplePrice(symbol) {
+    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
+    const time = data["Time Series (Daily)"];
+    const dates = Object.keys(time);
+    dates.sort( (a,b) => b.localeCompare(a) );
+    const last = dates[0];
+    const dayPrice = time[last];
+    return dayPrice['4. close'];
+}
+
+async function getGazPrice(symbol) {
+    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
+    const time = data["Time Series (Daily)"];
+    const dates = Object.keys(time);
+    dates.sort( (a,b) => b.localeCompare(a) );
+    const last = dates[0];
+    const dayPrice = time[last];
+    return dayPrice['4. close'];
+}
+
+async function getVisaPrice(symbol) {
+    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
+    const time = data["Time Series (Daily)"];
+    const dates = Object.keys(time);
+    dates.sort( (a,b) => b.localeCompare(a) );
+    const last = dates[0];
+    const dayPrice = time[last];
+    return dayPrice['4. close'];
+}
+
+async function getLukoyPrice(symbol) {
+    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
+    const time = data["Time Series (Daily)"];
+    const dates = Object.keys(time);
+    dates.sort( (a,b) => b.localeCompare(a) );
+    const last = dates[0];
+    const dayPrice = time[last];
+    return dayPrice['4. close'];
+}
+
+async function getMSFTPrice(symbol) {
+    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
+    const time = data["Time Series (Daily)"];
+    const dates = Object.keys(time);
+    dates.sort( (a,b) => b.localeCompare(a) );
+    const last = dates[0];
+    const dayPrice = time[last];
+    return dayPrice['4. close'];
+}
+
+
+async function getCscoPrice(symbol) {
+    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
+    const time = data["Time Series (Daily)"];
+    const dates = Object.keys(time);
+    dates.sort( (a,b) => b.localeCompare(a) );
+    const last = dates[0];
+    const dayPrice = time[last];
+    return dayPrice['4. close'];
+}
+
+
+
+function showApplPrice(symbol) {
+    const node = document.querySelector('#summAction');
+    node.innerText = "Цена акции APPL сейчас: ...loading...";
+    getApplePrice(symbol)
+        .then(price => {
+            node.innerText = "Цена акции APPL сейчас: " + parseFloat(price).toFixed(1) + " USD";
+        })
+        .catch(e => {
+            console.log("Loading apple error", e)
+            node.innerText = "Цена акции APPL сейчас: не удалось загрузить";
+        })
+}
+
+function showGazPrice(symbol) {
+    const gaz = document.querySelector('#summAction');
+    gaz.innerText = "Цена акции gaz сейчас: ...loading...";
+    getGazPrice(symbol)
+        .then(price => {
+            gaz.innerText = "Цена акции gaz сейчас: " + parseFloat(price).toFixed(1) + " USD";
+        })
+        .catch(e => {
+            console.log("Loading gaz error", e)
+            gaz.innerText = "Цена акции gaz сейчас: не удалось загрузить";
+        })
+}
+
+
+function showVisaPrice(symbol) {
+    const visa = document.querySelector('#summAction');
+    visa.innerText = "Цена акции VISA сейчас: ...loading...";
+    getVisaPrice(symbol)
+        .then(price => {
+            visa.innerText = "Цена акции VISA сейчас: " + parseFloat(price).toFixed(1) + " USD";
+        })
+        .catch(e => {
+            console.log("Loading VISA error", e)
+            visa.innerText = "Цена акции VISA сейчас: не удалось загрузить";
+        })
+}
+
+function showLukoyPrice(symbol) {
+    const luk = document.querySelector('#summAction');
+    luk.innerText = "Цена акции LUKOY сейчас: ...loading...";
+    getLukoyPrice(symbol)
+        .then(price => {
+            luk.innerText = "Цена акции LUKOY сейчас: " + parseFloat(price).toFixed(1) + " USD";
+        })
+        .catch(e => {
+            console.log("Loading LUKOY error", e)
+            luk.innerText = "Цена акции LUKOY сейчас: не удалось загрузить";
+        })
+}
+
+
+function showMSFTPrice(symbol) {
+    const msf = document.querySelector('#summAction');
+    msf.innerText = "Цена акции Msft сейчас: ...loading...";
+    getMSFTPrice(symbol)
+        .then(price => {
+            msf.innerText = "Цена акции Msft сейчас: " + parseFloat(price).toFixed(1) + " USD";
+        })
+        .catch(e => {
+            console.log("Loading Msft error", e)
+            msf.innerText = "Цена акции Msft сейчас: не удалось загрузить";
+        })
+}
+
+function showCscoPrice(symbol) {
+    const csco = document.querySelector('#summAction');
+    csco.innerText = "Цена акции CSCO сейчас: ...loading...";
+    getCscoPrice(symbol)
+        .then(price => {
+            csco.innerText = "Цена акции CSCO сейчас: " + parseFloat(price).toFixed(1) + " USD";
+        })
+        .catch(e => {
+            console.log("Loading CSCO error", e)
+            csco.innerText = "Цена акции CSCO сейчас: не удалось загрузить";
+        })
+}
+
 
 
 
@@ -158,3 +294,4 @@ var myLineChart = Chart.Line(canvas,{
     data:data,
     options:option
 });
+
