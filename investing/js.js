@@ -65,10 +65,7 @@ function calcAndShow(){
 
     $('#bar-left').text(moneyFormat(addKesh + startSumm));
     $('#bar-right').text(moneyFormat(upKesh));
-
-
 }
-
 
 
 
@@ -84,6 +81,8 @@ $('#btn-group-on').click(e => {
     calcAndShow();
 } );
 
+
+
 $('#toSumm').on('input', function (e){
     calcAndShow();
 });
@@ -97,6 +96,9 @@ $('#btn-group-to').click(e =>{
 });
 
 
+$(document).ready( function () {
+    document.getElementById('apple').click();
+});
 
 $('#action-list a').click(e => {
     e.preventDefault()
@@ -107,7 +109,6 @@ $('#action-list a').click(e => {
     calcAndShow();
 })
 
-//$('#itogSumm').text(moneyFormat(finishFor))
 
 
 async function getApplePrice(symbol) {
@@ -136,12 +137,9 @@ function showApplPrice(symbol) {
 }
 
 
-
-
-
 var canvas = document.getElementById('myChart');
 var data = {
-    labels: ['2015', '2016', '2017', '2018', '2019'],
+    labels: ['2016', '2017', '2018', '2019', '2020'],
     datasets: [
         {
             label: 'Динамика роста за 5 лет',
