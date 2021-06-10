@@ -102,16 +102,12 @@ $('#action-list a').click(e => {
     e.preventDefault()
     $('#action-list a').removeClass('active');
     $(e.currentTarget).addClass('active');
-    showApplPrice('AAPL');
-    showVisaPrice('V');
-    showMSFTPrice('MSFT');
-    showGazPrice('GAZ');
-    showLukoyPrice('LUKOY');
-    showCscoPrice('CSCO');
+    const symbol = $(e.currentTarget).data('symbol');
+    showApplPrice(symbol);
     calcAndShow();
 })
 
-
+//$('#itogSumm').text(moneyFormat(finishFor))
 
 
 async function getApplePrice(symbol) {
@@ -124,136 +120,18 @@ async function getApplePrice(symbol) {
     return dayPrice['4. close'];
 }
 
-async function getGazPrice(symbol) {
-    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
-    const time = data["Time Series (Daily)"];
-    const dates = Object.keys(time);
-    dates.sort( (a,b) => b.localeCompare(a) );
-    const last = dates[0];
-    const dayPrice = time[last];
-    return dayPrice['4. close'];
-}
-
-async function getVisaPrice(symbol) {
-    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
-    const time = data["Time Series (Daily)"];
-    const dates = Object.keys(time);
-    dates.sort( (a,b) => b.localeCompare(a) );
-    const last = dates[0];
-    const dayPrice = time[last];
-    return dayPrice['4. close'];
-}
-
-async function getLukoyPrice(symbol) {
-    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
-    const time = data["Time Series (Daily)"];
-    const dates = Object.keys(time);
-    dates.sort( (a,b) => b.localeCompare(a) );
-    const last = dates[0];
-    const dayPrice = time[last];
-    return dayPrice['4. close'];
-}
-
-async function getMSFTPrice(symbol) {
-    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
-    const time = data["Time Series (Daily)"];
-    const dates = Object.keys(time);
-    dates.sort( (a,b) => b.localeCompare(a) );
-    const last = dates[0];
-    const dayPrice = time[last];
-    return dayPrice['4. close'];
-}
-
-
-async function getCscoPrice(symbol) {
-    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
-    const time = data["Time Series (Daily)"];
-    const dates = Object.keys(time);
-    dates.sort( (a,b) => b.localeCompare(a) );
-    const last = dates[0];
-    const dayPrice = time[last];
-    return dayPrice['4. close'];
-}
-
-
 
 function showApplPrice(symbol) {
     const node = document.querySelector('#summAction');
-    node.innerText = "Цена акции APPL сейчас: ...loading...";
+    node.innerText = "Сейчас акция стоит: ...loading...";
     getApplePrice(symbol)
         .then(price => {
-            node.innerText = "Цена акции APPL сейчас: " + parseFloat(price).toFixed(1) + " USD";
+            const lastPrise = parseFloat(price) * 72.2;
+            node.innerText = "Сейчас акция стоит: " +  lastPrise.toFixed(2) + "  руб";
         })
         .catch(e => {
             console.log("Loading apple error", e)
-            node.innerText = "Цена акции APPL сейчас: не удалось загрузить";
-        })
-}
-
-function showGazPrice(symbol) {
-    const gaz = document.querySelector('#summAction');
-    gaz.innerText = "Цена акции gaz сейчас: ...loading...";
-    getGazPrice(symbol)
-        .then(price => {
-            gaz.innerText = "Цена акции gaz сейчас: " + parseFloat(price).toFixed(1) + " USD";
-        })
-        .catch(e => {
-            console.log("Loading gaz error", e)
-            gaz.innerText = "Цена акции gaz сейчас: не удалось загрузить";
-        })
-}
-
-
-function showVisaPrice(symbol) {
-    const visa = document.querySelector('#summAction');
-    visa.innerText = "Цена акции VISA сейчас: ...loading...";
-    getVisaPrice(symbol)
-        .then(price => {
-            visa.innerText = "Цена акции VISA сейчас: " + parseFloat(price).toFixed(1) + " USD";
-        })
-        .catch(e => {
-            console.log("Loading VISA error", e)
-            visa.innerText = "Цена акции VISA сейчас: не удалось загрузить";
-        })
-}
-
-function showLukoyPrice(symbol) {
-    const luk = document.querySelector('#summAction');
-    luk.innerText = "Цена акции LUKOY сейчас: ...loading...";
-    getLukoyPrice(symbol)
-        .then(price => {
-            luk.innerText = "Цена акции LUKOY сейчас: " + parseFloat(price).toFixed(1) + " USD";
-        })
-        .catch(e => {
-            console.log("Loading LUKOY error", e)
-            luk.innerText = "Цена акции LUKOY сейчас: не удалось загрузить";
-        })
-}
-
-
-function showMSFTPrice(symbol) {
-    const msf = document.querySelector('#summAction');
-    msf.innerText = "Цена акции Msft сейчас: ...loading...";
-    getMSFTPrice(symbol)
-        .then(price => {
-            msf.innerText = "Цена акции Msft сейчас: " + parseFloat(price).toFixed(1) + " USD";
-        })
-        .catch(e => {
-            console.log("Loading Msft error", e)
-            msf.innerText = "Цена акции Msft сейчас: не удалось загрузить";
-        })
-}
-
-function showCscoPrice(symbol) {
-    const csco = document.querySelector('#summAction');
-    csco.innerText = "Цена акции CSCO сейчас: ...loading...";
-    getCscoPrice(symbol)
-        .then(price => {
-            csco.innerText = "Цена акции CSCO сейчас: " + parseFloat(price).toFixed(1) + " USD";
-        })
-        .catch(e => {
-            console.log("Loading CSCO error", e)
-            csco.innerText = "Цена акции CSCO сейчас: не удалось загрузить";
+            node.innerText = "Сейчас акция стоит: не удалось загрузить";
         })
 }
 
