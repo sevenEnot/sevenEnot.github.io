@@ -58,7 +58,7 @@ function calcAndShow(){
     let [finishFor, addKesh, upKesh] = invest(startSumm, plt, action)
     $('#itogSumm').text(moneyFormat(finishFor))
 
-    let right = Math.max (upKesh / finishFor,0.2);
+    let right = Math.max (upKesh/ finishFor, 0.2);
     let left = 1 - right;
     $('#bar-left').css('width', (left*100)+'%');
     $('#bar-right').css('width', (right*100)+'%');
@@ -139,7 +139,7 @@ function showApplPrice(symbol) {
 
 var canvas = document.getElementById('myChart');
 var data = {
-    labels: ['2016', '2017', '2018', '2019', '2020'],
+    labels: ['2017', '2018', '2019', '2020', '2021'],
     datasets: [
         {
             label: 'Динамика роста за 5 лет',
@@ -153,13 +153,44 @@ var data = {
     ]
 };
 
-function adddata(){
-    let action = parseInt($('#action-list a.active').data('value'));
-    myLineChart.data.datasets[0].data[5] = action;
-    myLineChart.data.labels[5] = "2020";
+function dataApple(){
+    myLineChart.data.datasets[0].data = [2152,2941,3000,5524,9040]
     myLineChart.update();
     calcAndShow();
 }
+
+function dataGaz(){
+    myLineChart.data.datasets[0].data = [149,143,162,226,214]
+    myLineChart.update();
+    calcAndShow();
+}
+
+function dataVisa(){
+    myLineChart.data.datasets[0].data = [5596,8179,9542,13560,15641]
+    myLineChart.update();
+    calcAndShow();
+}
+
+function dataLuk(){
+    myLineChart.data.datasets[0].data = [3874,4448,5309,6959,4950]
+    myLineChart.update();
+    calcAndShow();
+}
+
+function dataMsft(){
+    myLineChart.data.datasets[0].data = [4448,6098,7246,11336,15928]
+    myLineChart.update();
+    calcAndShow();
+}
+
+function dataCisco(){
+    myLineChart.data.datasets[0].data = [2152,2726,3031,3372,3156]
+    myLineChart.update();
+    calcAndShow();
+}
+
+
+
 
 var option = {
     showLines: true
@@ -170,4 +201,3 @@ var myLineChart = Chart.Line(canvas,{
     data:data,
     options:option
 });
-

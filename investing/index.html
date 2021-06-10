@@ -12,30 +12,30 @@
 
 <div class="container">
     <div class="row ">
-        <div class="col-sm list-group" id="action-list" onclick="adddata()">
+        <div class="col-sm list-group" id="action-list">
             <h1>Сегодня</h1>
             <h3>Я покупаю акции:</h3>
-            <a href="#"  data-value="90" data-symbol="AAPL" id="apple"  class="list-group-item list-group-item-action onElement active ">
+            <a href="#"  data-value="358" data-symbol="AAPL" id="apple" onclick="dataApple()"  class="list-group-item list-group-item-action onElement active ">
                 <div style="font-size: 25px"><img style="width: 35px; height: 35px; border-radius: 50%;" src="apple.png"> Apple</div>
                 <p class="mb-1">Американская корпорация, производитель персональных и планшетных компьютеров, аудиоплееров, телефонов, программного обеспечения</p>
             </a>
-            <a href="#"  data-value="15" data-symbol="GAZ" class="list-group-item list-group-item-action ">
+            <a href="#"  data-value="7" data-symbol="GAZ" onclick="dataGaz()" class="list-group-item list-group-item-action ">
                 <div style="font-size: 25px"> <img style="width: 35px; height: 35px; border-radius: 50%; " src="gaz.png"> Газпром</div>
                 <p class="mb-1">Крупнейшая газовая компания в мире, занимающая лидирующие позиции на рынке добычи, транспортировки и реализации газа в России и за рубежом.</p>
             </a>
-            <a href="#" data-value="50" data-symbol="V" class="list-group-item list-group-item-action">
+            <a href="#" data-value="180" data-symbol="V" onclick="dataVisa()" class="list-group-item list-group-item-action">
                 <div style="font-size: 25px"> <img style="width: 35px; height: 35px; border-radius: 50%; " src="visa.png"> Visa</div>
                 <p class="mb-1">Американская транснациональная компания, предоставляющая финансовые услуги. При этом сама корпорация не занимается выпуском карт, не является банком.</p>
             </a>
-            <a href="#" data-value="10" data-symbol="LUKOY" class="list-group-item list-group-item-action">
+            <a href="#" data-value="18" data-symbol="LUKOY" onclick="dataLuk()" class="list-group-item list-group-item-action">
                 <div style="font-size: 25px"> <img style="width: 35px; height: 35px; border-radius: 50%; " src="lyk.png"> Лукойл </div>
                 <p class="mb-1">Одна из крупнейших в мире частных нефтегазовых компаний. Основными сферами деятельности ЛУКОЙЛА является добыча и переработка нефти и газа.</p>
             </a>
-            <a href="#" data-value="11" data-symbol="MSFT" class="list-group-item list-group-item-action ">
+            <a href="#" data-value="258" data-symbol="MSFT" onclick="dataMsft()" class="list-group-item list-group-item-action ">
                 <div style="font-size: 25px"> <img style="width: 35px; height: 35px; border-radius: 50%; " src="msft.png"> Microsoft </div>
                 <p class="mb-1">Одна из крупнейших транснациональных компаний по производству проприетарного программного обеспечения для различного рода вычислительной техники - персональных компьютеров, игровых приставок.</p>
             </a>
-            <a href="#" data-value="35" data-symbol="CSCO" class="list-group-item list-group-item-action lastElement">
+            <a href="#" data-value="48" data-symbol="CSCO" onclick="dataCisco()" class="list-group-item list-group-item-action lastElement">
                 <div style="font-size: 25px"> <img style="width: 35px; height: 35px; border-radius: 50%; " src="cisco.png"> Cisco </div>
                 <p class="mb-1">Американская транснациональная компания, разрабатывающая и продающая полный спектр сетевого оборудования, включая корпоративные маршрутизаторы, серверы, IP телефонию и пр.</p>
             </a>
@@ -109,9 +109,6 @@
 </div>
 
 
-
-
-s
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"  crossorigin="anonymous"></script>

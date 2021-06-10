@@ -41,6 +41,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -94,7 +102,11 @@
       <workItem from="1623266769775" duration="401000" />
       <workItem from="1623267357143" duration="852000" />
       <workItem from="1623268585215" duration="11000" />
-      <workItem from="1623315887594" duration="12500000" />
+      <workItem from="1623315887594" duration="13785000" />
+      <workItem from="1623330894549" duration="34000" />
+      <workItem from="1623331174585" duration="1313000" />
+      <workItem from="1623341174686" duration="4201000" />
+      <workItem from="1623349315927" duration="6875000" />
     </task>
     <servers />
   </component>
@@ -112,11 +124,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1010" y="254" key="SettingsEditor" timestamp="1604941469057">
-      <screen x="0" y="23" width="2560" height="1337" />
-    </state>
-    <state x="1010" y="254" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1604941469057" />
   </component>
 </project>
