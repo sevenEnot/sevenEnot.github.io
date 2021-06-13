@@ -122,13 +122,14 @@ async function getApplePrice(symbol) {
 }
 
 
+
 function showApplPrice(symbol) {
     const node = document.querySelector('#summAction');
     node.innerText = "Сейчас акция стоит: ...loading...";
     getApplePrice(symbol)
         .then(price => {
-            const lastPrise = parseFloat(price) * 72.2;
-            node.innerText = "Сейчас акция стоит: " +  lastPrise.toFixed(2) + "  руб";
+            const lastPrise = parseFloat(price) * 71.94;
+            node.innerText = "Сейчас акция стоит: " +  moneyFormat(lastPrise);
         })
         .catch(e => {
             console.log("Loading apple error", e)

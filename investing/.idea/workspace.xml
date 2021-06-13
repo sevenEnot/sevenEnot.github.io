@@ -74,7 +74,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,7 +106,8 @@
       <workItem from="1623330894549" duration="34000" />
       <workItem from="1623331174585" duration="1313000" />
       <workItem from="1623341174686" duration="4201000" />
-      <workItem from="1623349315927" duration="6875000" />
+      <workItem from="1623349315927" duration="7988000" />
+      <workItem from="1623570895897" duration="10505000" />
     </task>
     <servers />
   </component>
@@ -124,5 +125,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
