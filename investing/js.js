@@ -113,7 +113,7 @@ $('#action-list a').click(e => {
 
 
 async function getApplePrice(symbol) {
-    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=NT245F19SG1IMLOG`).then( res => res.json() )
+    const data = await fetch(`https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=VTVE2LC9AC9NC342`).then( res => res.json() )
     const time = data["Time Series (Daily)"];
     const dates = Object.keys(time);
     dates.sort( (a,b) => b.localeCompare(a) );
