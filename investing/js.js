@@ -106,6 +106,7 @@ $('#action-list a').click(e => {
     $(e.currentTarget).addClass('active');
     const symbol = $(e.currentTarget).data('symbol');
     showApplPrice(symbol);
+    showFiveLet(symbol);
     calcAndShow();
 })
 
@@ -121,14 +122,12 @@ async function getApplePrice(symbol) {
     return dayPrice['4. close'];
 }
 
-
-
 function showApplPrice(symbol) {
     const node = document.querySelector('#summAction');
     node.innerText = "Сейчас акция стоит: ...loading...";
     getApplePrice(symbol)
         .then(price => {
-            const lastPrise = parseFloat(price) * 71.94;
+            const lastPrise = parseFloat(price) * 72.80;
             node.innerText = "Сейчас акция стоит: " +  moneyFormat(lastPrise);
         })
         .catch(e => {
@@ -136,6 +135,7 @@ function showApplPrice(symbol) {
             node.innerText = "Сейчас акция стоит: не удалось загрузить";
         })
 }
+
 
 
 var canvas = document.getElementById('myChart');
